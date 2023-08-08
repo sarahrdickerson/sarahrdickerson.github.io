@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import ProjectCard from '@/components/ProjectCard'
 
 export default function Home() {
   return (
@@ -9,30 +8,35 @@ export default function Home() {
             <div className="mockup-code border w-3/5 shadow-md hidden lg:block md:block">
               <pre data-prefix="1"><code className='text-fuchsia-300'>class </code><code className='text-purple-300'>Sarah</code><code className='text-white'>:</code></pre>
               <pre data-prefix="2"><code className='text-fuchsia-300'>    def </code><code className='text-purple-300'>__init__</code><code className='text-white'>(</code><code className='text-rose-300'>self</code><code className='text-white'>):</code></pre>
-              <pre data-prefix="3"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>name</code><code className='text-white'> = &quot;</code><code className='text-sky-300'>Sarah</code><code className='text-white'>&quot;</code></pre>
-              <pre data-prefix="4"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>university</code><code className='text-white'> = &quot;</code><code className='text-sky-300'>The University of Texas at Austin</code><code className='text-white'>&quot;</code></pre>
-              <pre data-prefix="5"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>major</code><code className='text-white'> = &quot;</code><code className='text-sky-300'>Electrical &amp; Computer Engineering</code><code className='text-white'>&quot;</code></pre>
-              <pre data-prefix="6"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>concentration</code><code className='text-white'> = &quot;</code><code className='text-sky-300'>Software Engineering</code><code className='text-white'>&quot;</code></pre>
-              <pre data-prefix="7"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>graduation</code><code className='text-white'> = &quot;</code><code className='text-sky-300'>May 2024</code><code className='text-white'>&quot;</code></pre>
+              <pre data-prefix="3"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>name</code><code className='text-white'> = &quot;</code><code className='text-sky-300 hover:opacity-50 transition-all'>Sarah</code><code className='text-white'>&quot;</code></pre>
+              <pre data-prefix="4"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>university</code><code className='text-white'> = &quot;</code><code className='text-sky-300 hover:opacity-50 transition-all'>The University of Texas at Austin</code><code className='text-white'>&quot;</code></pre>
+              <pre data-prefix="5"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>major</code><code className='text-white'> = &quot;</code><code className='text-sky-300 hover:opacity-50 transition-all'>Electrical &amp; Computer Engineering</code><code className='text-white'>&quot;</code></pre>
+              <pre data-prefix="6"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>concentration</code><code className='text-white'> = &quot;</code><code className='text-sky-300 hover:opacity-50 transition-all'>Software Engineering</code><code className='text-white'>&quot;</code></pre>
+              <pre data-prefix="7"><code className='text-white'>        </code><code className='text-rose-300'>self</code><code className='text-white'>.</code><code className='text-white'>graduation</code><code className='text-white'> = &quot;</code><code className='text-sky-300 hover:opacity-50 transition-all'>May 2024</code><code className='text-white'>&quot;</code></pre>
+              <pre data-prefix="8"><code></code></pre>
+              <pre data-prefix="9"><code className='text-fuchsia-300'>    def </code><code className='text-purple-300'>get_resume</code><code className='text-white'>(</code><code className='text-white'>):</code></pre>
+              <pre data-prefix="10"><code className='text-white'>        </code><code className='text-white'>return </code><code className='text-teal-300 underline hover:opacity-50 transition-all'><a href="Dickerson_Sarah_Resume.pdf" target='_blank'>Dickerson_Sarah_Resume</a></code></pre>
+              <pre data-prefix="11"><code></code></pre>
+              <pre data-prefix="12"><code className='text-fuchsia-300'>    def </code><code className='text-purple-300'>get_email</code><code className='text-white'>(</code><code className='text-white'>):</code></pre>
+              <pre data-prefix="10"><code className='text-white'>        </code><code className='text-white'>return </code><code className='text-teal-300 hover:opacity-50 transition-all'>sarahrdickerson@gmail.com</code></pre>
             </div>
-            <div className='p-5 justify-center items-center place-items-center text-center flex flex-col w-2/5'>
+            <div className='p-5 justify-center items-center place-items-center text-center flex flex-col gap-2 lg:gap-1 w-2/5'>
               <h1 className='text-3xl font-semibold'>sarah dickerson</h1>
               <h2 className='text-xl font-semibold text-gray-600/75'>electrical & computer engineering @ ut austin</h2>
               <div className='flex flex-row justify-center items-center'>
                 <a href="
                   https://www.linkedin.com/in/srdickerson/
                 " target="_blank" rel="noopener noreferrer">
-                  <FaLinkedinIn className='text-lg m-2 text-gray-600/75' />
+                  <FaLinkedinIn className='text-lg m-2 text-gray-600/75 hover:opacity-50 transition-all' />
                 </a>
                 <a href="
                   https://www.github.com/sarahrdickerson
                   " target="_blank" rel="noopener noreferrer">
-                  <FaGithub className='text-lg m-2 text-gray-600/75' />
+                  <FaGithub className='text-lg m-2 text-gray-600/75 hover:opacity-50 transition-all' />
                 </a>
               </div>
             </div>
         </div>
-
 
         {/* PROJECTS */}
         <div className='min-h-screen w-full flex flex-col justify-center items-center p-10 pt-[100px] gap-5' id="projects">
@@ -42,7 +46,7 @@ export default function Home() {
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
 
             {/* calendar fusion */}
-            <div className="card min-w-96 bg-base-100 shadow-xl">
+            <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
               <Image src="calendar.png" alt="calendar fusion" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
@@ -59,7 +63,7 @@ export default function Home() {
             </div> {/* end calendar fusion */}
 
             {/* angular poc app */}
-            <div className="card min-w-96 bg-base-100 shadow-xl">
+            <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
               <Image src="loyalty.png" alt="loyalty app" width={500} height={300} />
               <div className="card-body">
                 <h2 className="card-title">
@@ -75,7 +79,7 @@ export default function Home() {
             </div> {/* angular poc app */}
 
             {/* haas */}
-            <div className="card min-w-96 bg-base-100 shadow-xl">
+            <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
               <Image src="haas.png" alt="haas website" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
@@ -92,7 +96,7 @@ export default function Home() {
             </div> {/* end haas */}
 
             {/* android weather app */}
-            <div className="card min-w-96 bg-base-100 shadow-xl">
+            <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
               <Image src="weather.png" alt="android weather app" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
@@ -106,7 +110,7 @@ export default function Home() {
             </div> {/* end android weather app */}
 
             {/* fruit masters */}
-            <div className="card min-w-96 bg-base-100 shadow-xl">
+            <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
               <Image src="fruit masters.png" alt="fruit masters" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
@@ -122,7 +126,7 @@ export default function Home() {
             </div> {/* end fruit masters */}
 
             {/* personal website */}
-            <div className="card min-w-96 bg-base-100 shadow-xl">
+            <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
               <Image src="website.png" alt="website" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
@@ -139,6 +143,20 @@ export default function Home() {
           </div> {/* end project grid */}
         </div>
         
+        {/* <div className='h-screen w-full flex flex-col justify-center items-center p-10' id="education">
+          <h1>education</h1>
+        </div> */}
+
+
+      <div id="contact" className='w-screen  h-16 items-center  border-t-[1px]'>
+        <div className='flex flex-row justify-between pl-4 pr-4 sm:pl-8 sm:pr-8 md:pl-16 md:pr-16 lg:pl-52 lg:pr-52'>
+          <a className='btn btn-link no-underline text-black font-normal' href='https://www.linkedin.com/in/srdickerson' target='_blank'>LinkedIn</a>
+          <a className='btn btn-link no-underline text-black font-normal' href='https://www.github.com/sarahrdickerson' target='_blank'>GitHub</a>
+          <a className='btn btn-link no-underline text-black font-normal' href='Dickerson_Sarah_Resume.pdf' target='_blank'>Resume</a>
+          <a className='btn btn-link no-underline text-black font-normal' href='mailto:sarahrdickerson@gmail.com' target='_blank'>Email</a>
+        </div>
+        
+      </div>
     </div>
   )
 }
