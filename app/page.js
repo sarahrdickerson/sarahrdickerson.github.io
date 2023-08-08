@@ -33,7 +33,6 @@ export default function Home() {
             </div>
         </div>
 
-
         {/* PROJECTS */}
         <div className='min-h-screen w-full flex flex-col justify-center items-center p-10 pt-[100px] gap-5' id="projects">
           <h1 className='text-2xl font-semibold'>Projects</h1>
@@ -81,7 +80,7 @@ export default function Home() {
                 <h2 className="card-title">
                   Hardware as a Service Website
                 </h2>
-                <p>User centric HaaS website for check in/out of hardware products and project management. Designed backend database models and API endpoints. Integrated frontend UI with APIs. Team based project for Software Engineering and Design Lab.</p>
+                <p>User centric HaaS website for check in and out of hardware products and project management. Designed backend database models and API endpoints. Integrated frontend UI with APIs. Team based project for Software Engineering and Design Lab.</p>
                 <div className="card-actions justify-end">
                   <div className="badge badge-outline badge-info">Python</div> 
                   <div className="badge badge-outline badge-secondary">React</div>
