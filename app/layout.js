@@ -12,6 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="blue_fav.png" />
+      </head>
       <body className={inter.className}>
         <Navbar />
         <main className="flex min-h-screen w-full flex-col items-center justify-center z-30">
