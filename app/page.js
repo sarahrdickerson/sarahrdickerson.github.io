@@ -33,6 +33,7 @@ export default function Home() {
             </div>
         </div>
 
+
         {/* PROJECTS */}
         <div className='min-h-screen w-full flex flex-col justify-center items-center p-10 pt-[100px] gap-5' id="projects">
           <h1 className='text-2xl font-semibold'>Projects</h1>
@@ -42,12 +43,12 @@ export default function Home() {
 
             {/* calendar fusion */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><Image src="calendar.png" alt="calendar fusion" width={500} height={300}/></figure>
+              <Image src="calendar.png" alt="calendar fusion" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
                   Calendar Fusion
                 </h2>
-                <p>A dynamic web application with a robust group calendar system. Calendar Fusion seamlessly integrates everyone's various calendars into a single unified view, revolutionizing collaborative planning and event scheduling among friends. No more missed brunch plans buried in a group chat!</p>
+                <p>A dynamic web application with a robust group calendar system. Calendar Fusion seamlessly integrates everyone members various calendars into a single unified view, revolutionizing collaborative planning and event scheduling among friends. No more missed brunch plans buried in a group chat!</p>
                 <div className="card-actions justify-end">
                 <div className="badge badge-outline badge-primary">Next.js</div> 
                   <div className="badge badge-outline badge-secondary">React</div>
@@ -59,7 +60,7 @@ export default function Home() {
 
             {/* angular poc app */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><Image src="loyalty.png" alt="loyalty app" width={500} height={300} /></figure>
+              <Image src="loyalty.png" alt="loyalty app" width={500} height={300} />
               <div className="card-body">
                 <h2 className="card-title">
                   Cross Platform Loyalty Mobile App
@@ -75,7 +76,7 @@ export default function Home() {
 
             {/* haas */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><Image src="haas.png" alt="haas website" width={500} height={300}/></figure>
+              <Image src="haas.png" alt="haas website" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
                   Hardware as a Service Website
@@ -92,7 +93,7 @@ export default function Home() {
 
             {/* android weather app */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><Image src="weather.png" alt="android weather app" width={500} height={300}/></figure>
+              <Image src="weather.png" alt="android weather app" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
                   Android Weather App
@@ -106,7 +107,7 @@ export default function Home() {
 
             {/* fruit masters */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><Image src="fruit masters.png" alt="fruit masters" width={500} height={300}/></figure>
+              <Image src="fruit masters.png" alt="fruit masters" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
                   Fruit Masters
@@ -122,7 +123,7 @@ export default function Home() {
 
             {/* personal website */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><Image src="website.png" alt="website" width={500} height={300}/></figure>
+              <Image src="website.png" alt="website" width={500} height={300}/>
               <div className="card-body">
                 <h2 className="card-title">
                   Personal Website
@@ -137,7 +138,6 @@ export default function Home() {
 
           </div> {/* end project grid */}
         </div>
-        
         
     </div>
   )
