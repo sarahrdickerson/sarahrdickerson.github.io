@@ -33,7 +33,6 @@ export default function Home() {
             </div>
         </div>
 
-        
 
         {/* PROJECTS */}
         <div className='min-h-screen w-full flex flex-col justify-center items-center p-10 pt-[100px] gap-5' id="projects">
@@ -44,7 +43,7 @@ export default function Home() {
 
             {/* calendar fusion */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><img src="calendar.png" alt="website" /></figure>
+              <figure><Image src="calendar.png" alt="calendar fusion" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Calendar Fusion
@@ -61,7 +60,7 @@ export default function Home() {
 
             {/* angular poc app */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><img src="loyalty.png" alt="website" /></figure>
+              <figure><Image src="loyalty.png" alt="loyalty app" width={500} height={300} /></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Cross Platform Loyalty Mobile App
@@ -77,7 +76,7 @@ export default function Home() {
 
             {/* haas */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><img src="haas.png" alt="website" /></figure>
+              <figure><Image src="haas.png" alt="haas website" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Hardware as a Service Website
@@ -94,7 +93,7 @@ export default function Home() {
 
             {/* android weather app */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><img src="weather.png" alt="website" /></figure>
+              <figure><Image src="weather.png" alt="android weather app" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Android Weather App
@@ -108,7 +107,7 @@ export default function Home() {
 
             {/* fruit masters */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><img src="fruit masters.png" alt="website" /></figure>
+              <figure><Image src="fruit masters.png" alt="fruit masters" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Fruit Masters
@@ -124,7 +123,7 @@ export default function Home() {
 
             {/* personal website */}
             <div className="card min-w-96 bg-base-100 shadow-xl">
-              <figure><img src="website.png" alt="website" /></figure>
+              <figure><Image src="website.png" alt="website" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Personal Website
@@ -139,6 +138,7 @@ export default function Home() {
 
           </div> {/* end project grid */}
         </div>
+        
         
     </div>
   )
