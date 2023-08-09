@@ -16,7 +16,7 @@ const Navbar = () => {
       };
 
   return (
-    <div className={`navbar fixed top-0 w-full flex justify-center 
+    <div className={`pl-5 navbar fixed top-0 w-full flex justify-center 
         ${ scrolled
             ? "border-b border-gray-200 bg-white/50 backdrop-blur-xl"
             : "bg-white/0"
