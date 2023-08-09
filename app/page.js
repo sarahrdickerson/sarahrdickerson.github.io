@@ -154,6 +154,92 @@ export default function Home() {
 
 
         {/* EDUCATION */}
+        <div className='min-h-screen w-full flex flex-col justify-center items-center p-10 pt-[100px] gap-5' id="education">
+          <h1 className='text-2xl font-semibold'>Education</h1>
+
+          {/* education main container */}
+          <div className='flex flex-col justify-center items-center '>
+
+            {/* top info */}
+            <div class="flex flex-row justify-center items-center gap-5 lg:gap-10">
+              <Image src="ut.png" alt="The University of Texas at Austin Seal" id="logo" width={200} height={200}/>
+              <div class='flex flex-col items-start'>
+                <p className='text-xl font-semibold hover:text-[#c05700] transition-all'>The University of Texas at Austin</p>
+                <p className='text-lg font-normal'>B.S. in Electrical and Computer Engineering</p>
+                <p className='text-md font-normal'>Concentration in Software Engineering</p>
+                <p className='text-sm italic'>Minor: Business Fundamentals</p>
+                <p className='italic text-sm'>Expected Graduation Date: May 2024</p>
+              </div>
+            </div> {/* end top info */}
+
+            {/* courses dropdowns */}
+            <div className='pt-10 w-full flex flex-col gap-5'>
+
+              {/* swe courses */}
+              <div className="collapse shadow-md collapse-plus bg-[#c05700]/25">
+                <input type="checkbox" /> 
+                <div className="collapse-title text-lg font-medium">
+                  Software Engineering Courses
+                </div>
+                <div className="collapse-content"> 
+                  <ul>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 364D - Introduction to Engineering Design (Senior Design) *<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 460J - Data Science Laboratory *<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 361N - Information Security/Privacy *<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 461L - Software Engineering and Design Lab<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 360P - Concurrent and Distributed Systems<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 360C - Algorithms<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 422C - Software Design and Implementation II<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 312H - Software Design and Implementation I Honors<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'><p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'><p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 351K - Probability and Random Processes<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; M 325K - Discrete Mathematics<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; M 340L - Matrices and Matrix Calculations<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; M 427J - Differential Equations and Linear Algebra<p></p></li>
+                  </ul>
+                </div>
+              </div> {/* end swe courses */}
+
+              {/* compeng courses */}
+              <div className="collapse shadow-md collapse-plus bg-[#c05700]/25">
+                <input type="checkbox" /> 
+                <div className="collapse-title text-lg font-medium">
+                  Computer Engineering Courses
+                </div>
+                <div className="collapse-content"> 
+                  <ul>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 316 - Digital Logic Design<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 313 - Linear Systems and Signals<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 319H - Introduction to Embedded Systems Honors<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECE 306 - Introduction to Computer Engineering<p></p></li>
+                  </ul>
+                </div>
+              </div> {/* end compeng courses */}
+
+              {/* business courses */}
+              <div className="collapse shadow-md collapse-plus bg-[#c05700]/25">
+                <input type="checkbox" /> 
+                <div className="collapse-title text-lg font-medium">
+                  Business Courses
+                </div>
+                <div className="collapse-content"> 
+                  <ul>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; LEB 320F - Foundations of Business Law/Ethics *<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; FIN 320F - Foundations of Finance<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; MKT 320F - Foundations of Marketing<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; MIS 302F - Foundations Info Tech Management<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ACC 310F - Foundations of Accounting<p></p></li>
+                    <li className='flex flex-row gap-1 pb-2'>&#x2022; ECO 304K - Introduction to Microeconomics<p></p></li>
+                  </ul>
+                </div>
+              </div> {/* end business courses */}
+
+              <p>* Indicates In Progress</p>
+            </div>
+          </div> {/* end education main container */}
+
+        </div>
 
 
         {/* PROJECTS */}

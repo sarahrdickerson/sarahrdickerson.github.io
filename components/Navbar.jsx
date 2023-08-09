@@ -29,7 +29,7 @@ const Navbar = () => {
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a onClick={() => handleScroll("#experience")}>experience</a></li>
-                {/* <li><a onClick={() => handleScroll("#education")}>education</a></li> */}
+                <li><a onClick={() => handleScroll("#education")}>education</a></li>
                 <li><a onClick={() => handleScroll("#projects")}>projects</a></li>
                 <li><a onClick={() => handleScroll("#contact")}>contact</a></li>
             </ul>
@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="navbar-end hidden lg:flex">
             <ul className="menu-horizontal px-1">
                 <li><a className='nav-item p-4 block' onClick={() => handleScroll("#experience")}>experience</a></li>
-                {/* <li><a className='nav-item p-4 block' onClick={() => handleScroll("#education")}>education</a></li> */}
+                <li><a className='nav-item p-4 block' onClick={() => handleScroll("#education")}>education</a></li>
                 <li><a className='nav-item  p-4 block' onClick={() => handleScroll("#projects")}>projects</a></li>
                 <li><a className='nav-item  p-4 block' onClick={() => handleScroll("#contact")}>contact</a></li>
             </ul>
