@@ -38,6 +38,124 @@ export default function Home() {
             </div>
         </div>
 
+        {/* EXPERIENCE */}
+        <div className='min-h-screen w-full flex flex-col justify-center items-center p-10 pt-[100px] gap-5' id="experience">
+          <h1 className='text-2xl font-semibold'>Experience</h1>
+
+          {/* experience grid */}
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10'>
+
+            {/* silicon labs */}
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+              <figure className="px-5 pt-10 pb-10">
+                <a href='https://www.silabs.com' target='_blank'><Image src="silabs.png" alt="silicon labs" className="rounded-xl" width={400} height={400}/></a>
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Software Engineer Intern</h2>
+                <h3 className='text-lg'>Silicon Labs</h3>
+                <p className='italic text-gray-400'>June 2023 - August 2023</p>
+                <ul>
+                  <li className='flex flex-row gap-1 pb-2'>&#x2022; <p>Boosted code coverage on 4 C++ projects from 21.5% to 81.5% by developing and expanding unit tests, significantly enhancing overall code quality and unit test effectiveness.</p></li>
+                  <li className='flex flex-row gap-1'>&#x2022; <p>Resolved bug and feature tickets for Java code, driving continuous improvement and maintenance of internal company software.</p></li>
+                </ul>
+              </div>
+            </div> {/* end silicon labs */}
+
+            {/* aristocrat */}
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+              <figure className="px-5 pt-10 pb-10">
+                <a href='https://www.aristocrat.com' target='_blank'><Image src="aristocrat.png" alt="aristocrat" className="rounded-xl" width={400} height={400}/></a>
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Software Engineer Intern</h2>
+                <h3 className='text-lg'>Aristocrat Technologies, Inc.</h3>
+                <p className='italic text-gray-400'>September 2022 - April 2023</p>
+                <ul>
+                  <li className='flex flex-row gap-1 pb-2'>&#x2022; <p>Developed an Angular Proof of Concept loyalty app, facilitating seamless NFC communication from mobile wallet passes to electronic gambling machines, elevating user experience and connectivity.</p></li>
+                  <li className='flex flex-row gap-1 pb-2'>&#x2022; <p>Demonstrated the apps capabilities with sample wallet passes, showcasing its potential to executives</p></li>
+                  <li className='flex flex-row gap-1'>&#x2022; <p>Automated the generation of wallet passes using Python scripts, enabling integration into the loyalty app.</p></li>
+                </ul>
+              </div>
+            </div> {/* end aristocrat */}
+
+            {/* ut austin */}
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+              <figure className="px-5 pt-10 pb-10">
+                <a href='https://cockrell.utexas.edu' target='_blank'><Image src="ut.png" alt="aristocrat" className="rounded-xl" width={400} height={400}/></a>
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Undergraduate Teaching Assistant</h2>
+                <h3 className='text-lg'>The University of Texas at Austin</h3>
+                <p className='italic text-gray-400'>January 2022 - April 2023</p>
+                <p className='italic text-gray-400'>ECE312 / ECE312H Software Implementation and Design I</p>
+                <ul>
+                  <li className='flex flex-row gap-1 pb-2'>&#x2022; <p>Facilitated weekly recitation sessions for 15-20 students on C/C++ topics, data structures, algorithms, and more, resulting in heightened comprehension and academic success within my section.</p></li>
+                  <li className='flex flex-row gap-1 pb-2'>&#x2022; <p>Conducted regular office hours for student support, concept clarification, and exam review.</p></li>
+                </ul>
+              </div>
+            </div> {/* end ut austin */}
+
+            {/* poly */}
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+              <figure className="px-5 pt-10 pb-10">
+                <a href='https://www.poly.com/us/en' target='_blank'><Image src="poly.png" alt="aristocrat" className="rounded-xl" width={400} height={400}/></a>
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Software Engineer Intern</h2>
+                <h3 className='text-lg'>Poly (acquired by HP in Nov 2022)</h3>
+                <p className='italic text-gray-400'>June 2022 - August 2022</p>
+                <ul>
+                  <li className='flex flex-row gap-1 pb-2'>&#x2022; <p>Designed a Windows streaming application to optimize internal development and debugging processes for a newer IP video connection video mode, accelerating the implementation of this new feature.</p></li>
+                  <li className='flex flex-row gap-1 pb-2'>&#x2022; <p>Assisted in weekly software quality assurance testing for new video conferencing modes.</p></li>
+                </ul>
+              </div>
+            </div> {/* end poly */}
+
+          </div> {/* end experience grid */}
+
+          <h1 className='text-2xl font-semibold pt-20'>Student Organizations</h1>
+          {/* org grid */}
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10'>
+
+            {/* trel */}
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+              <figure className="px-5 pt-10 pb-10">
+                <a href='https://www.texasrocketlab.com/' target='_blank'><Image src="trel.png" alt="silicon labs" className="rounded-xl" width={400} height={400}/></a>
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Software Engineer</h2>
+                <h3 className='text-lg'>Texas Rocket Engineering Lab</h3>
+                <p className='italic text-gray-400'>February 2021 - Present</p>
+                <ul>
+                  <li className='flex flex-row gap-1 pb-2'>&#x2022; <p>Enhanced monitoring of various rocket subsystems by developing fault handling mechanisms for the dashboard application using Python, Node.js, and MQTT to streamline fault detection and response.</p></li>
+                  <li className='flex flex-row gap-1'>&#x2022; <p>Collaborate with a multidisciplinary team of 250 engineers to ensure integration of flight software with various rocket subsystems.</p></li>
+                </ul>
+              </div>
+            </div> {/* end trel */}
+
+            {/* guadaloop */}
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+              <figure className="px-5 pt-10 pb-10">
+                <a href='https://www.texasrocketlab.com/' target='_blank'><Image src="guadaloop.png" alt="silicon labs" className="rounded-xl" width={400} height={400}/></a>
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Communications Software Engineer</h2>
+                <h3 className='text-lg'>Texas Guadaloop</h3>
+                <p className='italic text-gray-400'>September 2022 - Present</p>
+                <ul>
+                  <li className='flex flex-row gap-1 pb-2'>&#x2022; <p>Researched and analyzed potential communication systems implementations and designs for a Hyperloop pod as part of a student organization, assessing compatibility with project requirements and objectives.</p></li>
+                  <li className='flex flex-row gap-1'>&#x2022; <p>Collaborated with cross-functional team members to ensure alignment with project objectives and technical feasibility.</p></li>
+                </ul>
+              </div>
+            </div> {/* end guadaloop */}
+
+          </div> {/* end org grid */}
+        </div>
+
+
+        {/* EDUCATION */}
+        
+
         {/* PROJECTS */}
         <div className='min-h-screen w-full flex flex-col justify-center items-center p-10 pt-[100px] gap-5' id="projects">
           <h1 className='text-2xl font-semibold'>Projects</h1>
@@ -47,7 +165,7 @@ export default function Home() {
 
             {/* calendar fusion */}
             <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
-              <Image src="calendar.png" alt="calendar fusion" width={500} height={300}/>
+              <figure><Image src="calendar.png" alt="calendar fusion" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Calendar Fusion
@@ -64,7 +182,7 @@ export default function Home() {
 
             {/* angular poc app */}
             <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
-              <Image src="loyalty.png" alt="loyalty app" width={500} height={300} />
+              <figure><Image src="loyalty.png" alt="loyalty app" width={500} height={300} /></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Cross Platform Loyalty Mobile App
@@ -80,7 +198,7 @@ export default function Home() {
 
             {/* haas */}
             <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
-              <Image src="haas.png" alt="haas website" width={500} height={300}/>
+              <figure><Image src="haas.png" alt="haas website" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Hardware as a Service Website
@@ -97,7 +215,7 @@ export default function Home() {
 
             {/* android weather app */}
             <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
-              <Image src="weather.png" alt="android weather app" width={500} height={300}/>
+              <figure><Image src="weather.png" alt="android weather app" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Android Weather App
@@ -111,7 +229,7 @@ export default function Home() {
 
             {/* fruit masters */}
             <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
-              <Image src="fruit masters.png" alt="fruit masters" width={500} height={300}/>
+              <figure><Image src="fruit masters.png" alt="fruit masters" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Fruit Masters
@@ -127,7 +245,7 @@ export default function Home() {
 
             {/* personal website */}
             <div className="card min-w-96 bg-base-100 shadow-xl max-w-[488px]">
-              <Image src="website.png" alt="website" width={500} height={300}/>
+              <figure><Image src="website.png" alt="website" width={500} height={300}/></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Personal Website
