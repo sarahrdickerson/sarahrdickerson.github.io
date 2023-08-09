@@ -136,7 +136,7 @@ export default function Home() {
             {/* guadaloop */}
             <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
               <figure className="px-5 pt-10 pb-10">
-                <a href='https://www.texasrocketlab.com/' target='_blank'><Image src="guadaloop.png" alt="silicon labs" className="rounded-xl" width={400} height={400}/></a>
+                <a href='https://www.guadaloop.com/' target='_blank'><Image src="guadaloop.png" alt="silicon labs" className="rounded-xl" width={400} height={400}/></a>
               </figure>
               <div className="card-body">
                 <h2 className="card-title">Communications Software Engineer</h2>
@@ -154,7 +154,7 @@ export default function Home() {
 
 
         {/* EDUCATION */}
-        
+
 
         {/* PROJECTS */}
         <div className='min-h-screen w-full flex flex-col justify-center items-center p-10 pt-[100px] gap-5' id="projects">
