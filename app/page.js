@@ -161,7 +161,7 @@ export default function Home() {
           <div className='flex flex-col justify-center items-center '>
 
             {/* top info */}
-            <div class="flex flex-row justify-center items-center gap-5 lg:gap-10">
+            <div class="flex flex-col lg:flex-row md:flex-row justify-center items-center gap-5 lg:gap-10">
               <Image src="ut.png" alt="The University of Texas at Austin Seal" id="logo" width={200} height={200}/>
               <div class='flex flex-col items-start'>
                 <p className='text-xl font-semibold hover:text-[#c05700] transition-all'>The University of Texas at Austin</p>
