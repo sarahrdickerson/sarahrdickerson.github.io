@@ -46,7 +46,7 @@ export default function Home() {
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10'>
 
             {/* silicon labs */}
-            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-col lg:flex-row">
               <figure className="px-5 pt-10 pb-10">
                 <a href='https://www.silabs.com' target='_blank'><Image src="silabs.png" alt="silicon labs" className="rounded-xl" width={400} height={400}/></a>
               </figure>
@@ -62,7 +62,7 @@ export default function Home() {
             </div> {/* end silicon labs */}
 
             {/* aristocrat */}
-            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-col lg:flex-row">
               <figure className="px-5 pt-10 pb-10">
                 <a href='https://www.aristocrat.com' target='_blank'><Image src="aristocrat.png" alt="aristocrat" className="rounded-xl" width={400} height={400}/></a>
               </figure>
@@ -79,9 +79,9 @@ export default function Home() {
             </div> {/* end aristocrat */}
 
             {/* ut austin */}
-            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-col lg:flex-row">
               <figure className="px-5 pt-10 pb-10">
-                <a href='https://cockrell.utexas.edu' target='_blank'><Image src="ut.png" alt="aristocrat" className="rounded-xl" width={400} height={400}/></a>
+                <a href='https://cockrell.utexas.edu' target='_blank'><Image src="ut2.png" alt="ut austin" className="rounded-xl" width={400} height={400}/></a>
               </figure>
               <div className="card-body">
                 <h2 className="card-title">Undergraduate Teaching Assistant</h2>
@@ -96,9 +96,9 @@ export default function Home() {
             </div> {/* end ut austin */}
 
             {/* poly */}
-            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-col lg:flex-row">
               <figure className="px-5 pt-10 pb-10">
-                <a href='https://www.poly.com/us/en' target='_blank'><Image src="poly.png" alt="aristocrat" className="rounded-xl" width={400} height={400}/></a>
+                <a href='https://www.poly.com/us/en' target='_blank'><Image src="poly.png" alt="poly" className="rounded-xl" width={400} height={400}/></a>
               </figure>
               <div className="card-body">
                 <h2 className="card-title">Software Engineer Intern</h2>
@@ -118,9 +118,9 @@ export default function Home() {
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10'>
 
             {/* trel */}
-            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-col lg:flex-row">
               <figure className="px-5 pt-10 pb-10">
-                <a href='https://www.texasrocketlab.com/' target='_blank'><Image src="trel.png" alt="silicon labs" className="rounded-xl" width={400} height={400}/></a>
+                <a href='https://www.texasrocketlab.com/' target='_blank'><Image src="trel.png" alt="trel" className="rounded-xl" width={400} height={400}/></a>
               </figure>
               <div className="card-body">
                 <h2 className="card-title">Software Engineer</h2>
@@ -134,9 +134,9 @@ export default function Home() {
             </div> {/* end trel */}
 
             {/* guadaloop */}
-            <div className="card min-w-96 bg-base-100 shadow-xl flex-row">
+            <div className="card min-w-96 bg-base-100 shadow-xl flex-col lg:flex-row">
               <figure className="px-5 pt-10 pb-10">
-                <a href='https://www.guadaloop.com/' target='_blank'><Image src="guadaloop.png" alt="silicon labs" className="rounded-xl" width={400} height={400}/></a>
+                <a href='https://www.guadaloop.com/' target='_blank'><Image src="guadaloop.png" alt="guadaloop" className="rounded-xl" width={400} height={400}/></a>
               </figure>
               <div className="card-body">
                 <h2 className="card-title">Communications Software Engineer</h2>
