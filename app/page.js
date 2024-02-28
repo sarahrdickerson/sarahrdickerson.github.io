@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Typewriter from "@/components/typewriter";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         className="h-screen w-full flex flex-row justify-center items-center p-10"
         id="home"
       >
-        <h1>test hi</h1>
+        <Typewriter />
       </div>
     </div>
   );
