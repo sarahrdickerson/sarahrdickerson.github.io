@@ -8,8 +8,10 @@ export default function Typewriter() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["get_summary()<br/>^1500 summary</br>1"],
-      typeSpeed: 50,
+      strings: [
+        "get_summary()<br/>^1500 + full stack developer<br/>+ ai-driven solutions<br/>+ smart technology integration<br/>+ committed to continuous learning<br/><br/><i>skills</i>: javascript, python, react, node.js, java, sql, nosql",
+      ],
+      typeSpeed: 25,
     });
 
     return () => {

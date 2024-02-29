@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Typewriter from "@/components/typewriter";
+import { LinkedInLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         className="h-screen w-full flex flex-row justify-center items-center p-10 bg-[#BBB1D2] gap-20"
         id="home"
       >
-        <div className="hidden md:flex md:gap-20 items-center">
+        <div className="hidden md:flex md:gap-20 justify-center items-center">
           <div className="bg-[#FAF6FF] rounded-lg shadow-xl w-[400px] h-[300px]">
             <div className="bg-[#354259] p-2 rounded-t-lg flex items-center justify-start space-x-1 ">
               <div className="w-3 h-3 bg-[#FAF6FF] rounded-full"></div>
@@ -23,14 +24,17 @@ export default function Home() {
           </div>
           <div className="p-5 flex flex-col gap-2 lg:gap-1 w-2/5">
             <h1 className="text-6xl font-semibold text-[#354259]">
-              hi, my name is
+              hi, my
+              <br />
+              name is
             </h1>
             <h1 className="text-6xl font-semibold text-white">
               sarah dickerson<span className="text-[#354259]">,</span>
             </h1>
             <h1 className="text-6xl font-semibold text-[#354259]">and i'm a</h1>
-            <h1 className="text-6xl font-semibold text-white">software</h1>
             <h1 className="text-6xl font-semibold text-white">
+              software
+              <br />
               engineer<span className="text-[#354259]">.</span>
             </h1>
           </div>
