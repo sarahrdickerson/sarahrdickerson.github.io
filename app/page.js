@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="w-screen justify-center items-center flex flex-col">
       <div
-        className="h-screen w-full flex flex-row justify-center items-center p-10 bg-[#BBB1D2] gap-20"
+        className="min-h-screen w-full flex flex-row justify-center items-center p-10 bg-[#BBB1D2] gap-20"
         id="home"
       >
         {/* <div className="hidden md:flex md:gap-20 justify-center items-center"> */}
@@ -40,6 +40,22 @@ export default function Home() {
               <br />
               engineer<span className="text-[#354259]">.</span>
             </h1>
+            <div className="flex flex-row mt-5 gap-5 ">
+              <a
+                href="https://www.linkedin.com/in/srdickerson"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkedInLogoIcon className="text-[#354259] w-8 h-8 hover:text-gray-500/75 transition duration-300 ease-in-out" />
+              </a>
+              <a
+                href="https://www.github.com/sarahrdickerson"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GitHubLogoIcon className="text-[#354259] w-8 h-8 hover:text-gray-500/75 transition duration-300 ease-in-out" />
+              </a>
+            </div>
           </div>
         </div>
 
