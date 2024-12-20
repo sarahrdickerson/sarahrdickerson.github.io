@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Typewriter from "@/components/typewriter";
-import { LinkedInLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
+import { LinkedInLogoIcon, GitHubLogoIcon, FileTextIcon} from "@radix-ui/react-icons";
 import { Badge } from "@/components/ui/badge";
 import CodeEditor from "@/components/code_editor";
 
@@ -36,6 +36,7 @@ export default function Home() {
                 href="https://www.linkedin.com/in/srdickerson"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="LinkedIn"
               >
                 <LinkedInLogoIcon className="text-[#354259] w-8 h-8 hover:text-gray-500/75 transition duration-300 ease-in-out" />
               </a>
@@ -43,8 +44,17 @@ export default function Home() {
                 href="https://www.github.com/sarahrdickerson"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="GitHub"
               >
                 <GitHubLogoIcon className="text-[#354259] w-8 h-8 hover:text-gray-500/75 transition duration-300 ease-in-out" />
+              </a>
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Resume"
+              >
+                <FileTextIcon className="text-[#354259] w-8 h-8 hover:text-gray-500/75 transition duration-300 ease-in-out" />
               </a>
             </div>
           </div>
