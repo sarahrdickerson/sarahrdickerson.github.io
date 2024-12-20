@@ -3,6 +3,7 @@ import Typewriter from "@/components/typewriter";
 import { LinkedInLogoIcon, GitHubLogoIcon, FileTextIcon} from "@radix-ui/react-icons";
 import { Badge } from "@/components/ui/badge";
 import CodeEditor from "@/components/code_editor";
+import Experience from "@/components/work_experience";
 
 export default function Home() {
   return (
@@ -98,176 +99,20 @@ export default function Home() {
           </div>
         </div>
 
+        {/* EXPERIENCE */}
         <div className="relative pb-5">
           <div className="absolute inset-0">
             <div className="container grid md:grid-cols-3 gap-8 items-center h-full w-full">
               <div className="md:col-start-2 h-full pt-16 ml-2">
-                <div className="w-0.5 bg-gray-500 h-full"></div>
+                <div className="w-0.5 bg-gray-500 h-full"></div> 
               </div>
             </div>
           </div>
 
-          <div className="container grid md:grid-cols-3 gap-8 items-center mb-4">
-            <div className="md:col-start-2 md:col-span-2">
-              <h2 className="inline-block bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">
-                work experience
-              </h2>
-            </div>
-          </div>
+          <Experience/>
 
-          {/* ARISTOCRAT */}
-          <div className="container grid md:grid-cols-3 gap-4 md:gap-8 mb-16">
-            <div className="pl-12 md:pl-0 md:text-right md:leading-loose uppercase text-gray-500">
-              Jan 2024 - Present
-            </div>
-            <div className="pl-12 md:col-span-2 relative">
-              <div className="rounded-full bg-[#EDECED] border-2 border-gray-500 w-5 h-5 absolute mt-1.5 -ml-12"></div>
-              <h3 className="text-xl font-bold text-[#7F7895]">
-                AI Software Engineering Intern
-                <a
-                  className="italic font-light hover:text-[#BBB1D2] transition duration-300 ease-in-out"
-                  href="https://www.aristocrat.com"
-                >
-                  {" "}
-                  @ Aristocrat
-                </a>
-              </h3>
-              <p className="text-sm text-gray-500 pb-4">Austin, TX | Co-Op</p>
-              <div className="pr-5 md:pr-20">
-                <ul className="list-disc">
-                  <li className="pb-2">
-                    Leveraged Large Language Models (LLMs) and Generative AI to
-                    engineer an AI-powered Avatar Dealer in Unreal Engine 5,
-                    enabling intelligent and context-aware responses in
-                    real-time
-                  </li>
-                  <li className="pb-2">
-                    Implemented Text-to-Speech (TTS) and Speech-to-Text (STT)
-                    models to simulate lifelike human interactions, elevating
-                    the immersive quality of in-game experiences
-                  </li>
-                  <li>
-                    Integrated NVIDIA Omniverse for seamless real-time rendering
-                    of lip-synced audio for avatar&apos;s responses
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* SILABS */}
-          <div className="container grid md:grid-cols-3 gap-4 md:gap-8 mb-16">
-            <div className="pl-12 md:pl-0 md:text-right md:leading-loose uppercase text-gray-500">
-              Jun 2023 - Aug 2023
-            </div>
-            <div className="pl-12 md:col-span-2 relative">
-              <div className="rounded-full bg-[#EDECED] border-2 border-gray-500 w-5 h-5 absolute mt-1.5 -ml-12"></div>
-              <h3 className="text-xl font-bold text-[#7F7895]">
-                Software Engineering Intern
-                <a
-                  className="italic font-light hover:text-[#BBB1D2] transition duration-300 ease-in-out"
-                  href="https://www.silabs.com"
-                >
-                  {" "}
-                  @ Silicon Labs
-                </a>
-              </h3>
-              <p className="text-sm text-gray-500 pb-4">
-                Austin, TX | Internship
-              </p>
-              <div className="pr-5 md:pr-20">
-                <ul className="list-disc">
-                  <li className="pb-2">
-                    Enhanced the metadata management of Simplicity Studio IDE by
-                    resolving bug and feature tickets in the product&apos;s
-                    extensive Java codebase, driving continuous improvement of
-                    company software
-                  </li>
-                  <li className="pb-2">
-                    Increased average code coverage on 4 C++ projects from 21.5%
-                    to 81.5% by developing and expanding unit tests and
-                    optimizing Makefiles, significantly enhancing overall code
-                    quality and unit test effectiveness
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* ARISTOCRAT pt2 */}
-          <div className="container grid md:grid-cols-3 gap-4 md:gap-8 mb-16">
-            <div className="pl-12 md:pl-0 md:text-right md:leading-loose uppercase text-gray-500">
-              Sep 2022 - Apr 2023
-            </div>
-            <div className="pl-12 md:col-span-2 relative">
-              <div className="rounded-full bg-[#EDECED] border-2 border-gray-500 w-5 h-5 absolute mt-1.5 -ml-12"></div>
-              <h3 className="text-xl font-bold text-[#7F7895]">
-                Software Engineering Intern
-                <a
-                  className="italic font-light hover:text-[#BBB1D2] transition duration-300 ease-in-out"
-                  href="https://www.silabs.com"
-                >
-                  {" "}
-                  @ Aristocrat
-                </a>
-              </h3>
-              <p className="text-sm text-gray-500 pb-4">Austin, TX | Co-Op</p>
-              <div className="pr-5 md:pr-20">
-                <ul className="list-disc">
-                  <li className="pb-2">
-                    Developed a proof-of-concept loyalty app using Angular,
-                    facilitating seamless NFC communication from mobile wallet
-                    passes to electronic gambling machines, enhancing user
-                    experience and connectivity
-                  </li>
-                  <li className="pb-2">
-                    Demonstrated the app's capabilities with sample wallet
-                    passes, showcasing its potential to executives
-                  </li>
-                  <li>
-                    Automated wallet pass generation using Python scripts,
-                    facilitating integration into the loyalty app
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* UT TA */}
-          <div className="container grid md:grid-cols-3 gap-4 md:gap-8 mb-16">
-            <div className="pl-12 md:pl-0 md:text-right md:leading-loose uppercase text-gray-500">
-              Jan 2022 - Apr 2023
-            </div>
-            <div className="pl-12 md:col-span-2 relative">
-              <div className="rounded-full bg-[#EDECED] border-2 border-gray-500 w-5 h-5 absolute mt-1.5 -ml-12"></div>
-              <h3 className="text-xl font-bold text-[#7F7895]">
-                Undergraduate Teaching Assistant
-                <a
-                  className="italic font-light hover:text-[#BBB1D2] transition duration-300 ease-in-out"
-                  href="https://www.utexas.edu"
-                >
-                  {" "}
-                  @ UT Austin
-                </a>
-              </h3>
-              <p className="text-sm text-gray-500 pb-4">
-                Austin, TX | Part-Time
-              </p>
-              <div className="pr-5 md:pr-20">
-                <ul className="list-disc">
-                  <li className="pb-2">
-                    Led weekly recitation sessions for 15-20 students on C/C++
-                    topics, data structures, algorithms, and more, resulting in
-                    heightened comprehension and academic success within my
-                    section
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* NEXT */}
         </div>
+
       </div>
 
       {/* -------------- PROJECTS --------------*/}

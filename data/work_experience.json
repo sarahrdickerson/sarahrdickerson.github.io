@@ -1,0 +1,52 @@
+[
+    {
+      "dates": "Jan 2024 - Present",
+      "title": "AI Software Engineering Intern",
+      "company": "Aristocrat",
+      "companyLink": "https://www.aristocrat.com",
+      "location": "Austin, TX",
+      "type": "Co-Op",
+      "bulletPoints": [
+        "Leveraged Large Language Models (LLMs) and Generative AI to engineer an AI-powered Avatar Dealer in Unreal Engine 5, enabling intelligent and context-aware responses in real-time",
+        "Implemented Text-to-Speech (TTS) and Speech-to-Text (STT) models to simulate lifelike human interactions, elevating the immersive quality of in-game experiences",
+        "Integrated NVIDIA Omniverse for seamless real-time rendering of lip-synced audio for avatar's responses"
+      ]
+    },
+    {
+      "dates": "Jun 2023 - Aug 2023",
+      "title": "Software Engineering Intern",
+      "company": "Silicon Labs",
+      "companyLink": "https://www.silabs.com",
+      "location": "Austin, TX",
+      "type": "Internship",
+      "bulletPoints": [
+        "Enhanced the metadata management of Simplicity Studio IDE by resolving bug and feature tickets in the product's extensive Java codebase, driving continuous improvement of company software",
+        "Increased average code coverage on 4 C++ projects from 21.5% to 81.5% by developing and expanding unit tests and optimizing Makefiles, significantly enhancing overall code quality and unit test effectiveness"
+      ]
+    },
+    {
+      "dates": "Sep 2022 - Apr 2023",
+      "title": "Software Engineering Intern",
+      "company": "Aristocrat",
+      "companyLink": "https://www.aristocrat.com",
+      "location": "Austin, TX",
+      "type": "Co-Op",
+      "bulletPoints": [
+        "Developed a proof-of-concept loyalty app using Angular, facilitating seamless NFC communication from mobile wallet passes to electronic gambling machines, enhancing user experience and connectivity",
+        "Demonstrated the app's capabilities with sample wallet passes, showcasing its potential to executives",
+        "Automated wallet pass generation using Python scripts, facilitating integration into the loyalty app"
+      ]
+    },
+    {
+      "dates": "Jan 2022 - Apr 2023",
+      "title": "Undergraduate Teaching Assistant",
+      "company": "UT Austin",
+      "companyLink": "https://www.utexas.edu",
+      "location": "Austin, TX",
+      "type": "Part-Time",
+      "bulletPoints": [
+        "Led weekly recitation sessions for 15-20 students on C/C++ topics, data structures, algorithms, and more, resulting in heightened comprehension and academic success within my section"
+      ]
+    }
+]
+  
