@@ -130,63 +130,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* ITINERAIRY */}
-          <div className="flex flex-col justify-center items-center gap-5 text-[#354259] mb-20">
-            <img
-              src="itinerairy.jpg"
-              alt="itinerairy UI"
-              className="w-3/5 border-4 rounded-md border-[#7F789590]"
-            />
-            <div className="flex flex-col justify-ceenter items-center w-1/2">
-              <h2 className="uppercase font-bold text-xl">ITINERAIRY</h2>
-              <h3 className=" italic text-lg mb-5 text-gray-600">
-                Innovating travel with AI-driven planning
-              </h3>
-              <p className="text-center text-gray-500">
-                A sophisticated web application utilizing Next.js and enhanced
-                by AI, ItinerAIry offers users an interactive platform for
-                crafting tailored travel itineraries. The system intelligently
-                adapts to individual preferences using OpenAI's GPT, supports
-                real-time collaborative planning, and incorporates advanced
-                features such as a multi-currency budget tracker and a personal
-                travel bucket list, all orchestrated within a seamless
-                user-centric design.
-              </p>
-              <div className="flex flex-row gap-5">
-                <Badge>JavaScript</Badge>
-                <Badge variant="secondary">OpenAI</Badge>
-                <Badge variant="outline">SQL</Badge>
-                <Badge>Next.js</Badge>
-              </div>
-            </div>
-          </div>
-
-          {/* NExt */}
-          <div className="container grid md:grid-cols-2 gap-8 md:gap-20 items-center justify-center">
-            <div className="flex flex-col items-center text-center justify-center">
-              <img
-                src="aimusicgen.png"
-                alt="ai musig generator UI"
-                className="w-4/5 border-4 rounded-md border-[#7F789590]"
-              />
-              <div className="flex flex-col justify-ceenter items-center w-4/5">
-                <h2 className="uppercase font-bold text-xl">
-                  AI Music Generator
-                </h2>
-                <h3 className=" italic text-lg mb-5 text-gray-600">
-                  Music Generation powered by AI
-                </h3>
-                <p className="text-center text-gray-500">
-                  An innovative web application designed for indie artists and
-                  garage bands, offering AI-generated music samples for creative
-                  inspiration. It features intuitive music generation and
-                  editing, allowing users to craft unique compositions and
-                  transform existing pieces, elevating the music creation
-                  process with technology-driven novelty and personalization.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
