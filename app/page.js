@@ -2,6 +2,7 @@ import Image from "next/image";
 import Typewriter from "@/components/typewriter";
 import { LinkedInLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Badge } from "@/components/ui/badge";
+import CodeEditor from "@/components/code_editor";
 
 export default function Home() {
   return (
@@ -11,20 +12,9 @@ export default function Home() {
         className="min-h-screen w-full flex flex-row justify-center items-center p-10 bg-[#BBB1D2] gap-20"
         id="home"
       >
-        <div className="container grid md:grid-cols-2 gap-8 md:gap-20 items-center justify-center">
-          <div className="flex md:justify-end w-full justify-center">
-            <div className="bg-[#FAF6FF] rounded-lg shadow-xl md:w-4/5">
-              <div className="bg-[#354259] p-2 rounded-t-lg flex items-center justify-start space-x-1 ">
-                <div className="w-3 h-3 bg-[#FAF6FF] rounded-full"></div>
-                <div className="w-3 h-3 bg-[#FAF6FF] rounded-full"></div>
-                <div className="w-3 h-3 bg-[#FAF6FF] rounded-full"></div>
-              </div>
-              <div className="p-6 flex flex-row gap-2">
-                {/* Content goes here, you can add your typewriter effect or any other content */}
-                <p className="text-purple-400">&gt;</p>
-                <Typewriter />
-              </div>
-            </div>
+        <div className="container grid md:grid-cols-2 gap-8 md:gap-20 md:items-center justify-center">
+          <div className="h-1/2 w-full">
+            <CodeEditor />
           </div>
           <div className="flex flex-col gap-2 lg:gap-1 w-full">
             <h1 className="text-6xl font-semibold text-[#354259]">
