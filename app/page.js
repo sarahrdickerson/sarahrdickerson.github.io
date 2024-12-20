@@ -49,7 +49,7 @@ export default function Home() {
                 <GitHubLogoIcon className="text-[#354259] w-8 h-8 hover:text-gray-500/75 transition duration-300 ease-in-out" />
               </a>
               <a
-                href="/resume.pdf"
+                href="/Dickerson_Sarah.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Resume"
