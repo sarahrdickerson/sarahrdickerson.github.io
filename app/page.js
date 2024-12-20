@@ -1,15 +1,16 @@
 import Image from "next/image";
 import Typewriter from "@/components/typewriter";
 import { LinkedInLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
+import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
   return (
     <div className="w-screen justify-center items-center flex flex-col">
+      {/* -------------- HOMEPAGE -------------- */}
       <div
         className="min-h-screen w-full flex flex-row justify-center items-center p-10 bg-[#BBB1D2] gap-20"
         id="home"
       >
-        {/* <div className="hidden md:flex md:gap-20 justify-center items-center"> */}
         <div className="container grid md:grid-cols-2 gap-8 md:gap-20 items-center justify-center">
           <div className="flex md:justify-end w-full justify-center">
             <div className="bg-[#FAF6FF] rounded-lg shadow-xl md:w-4/5">
@@ -58,39 +59,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* <div className="flex flex-col md:hidden items-center text-center gap-2">
-          <div>
-            <h2 className="text-4xl font-semibold text-white">sarah</h2>
-            <h2 className="text-4xl font-semibold text-white">dickerson</h2>
-          </div>
-          <h2 className="text-xl font-semibold text-[#354259]">
-            software engineer
-          </h2>
-          <div className="flex flex-row justify-center items-center">
-            <a
-              href="
-                  https://www.linkedin.com/in/srdickerson/
-                "
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedinIn className="text-lg m-2 text-gray-600/75 hover:opacity-50 transition-all" />
-            </a>
-            <a
-              href="
-                  https://www.github.com/sarahrdickerson
-                  "
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub className="text-lg m-2 text-gray-600/75 hover:opacity-50 transition-all" />
-            </a>
-          </div>
-        </div> */}
       </div>
 
-      {/* EXPERIENCE */}
+      {/* -------------- EXPERIENCE -------------- */}
       <div
         className="min-h-screen bg-[#EDECED] text-[#131411] p-10"
         // className="min-h-screen w-full flex flex-col p-10 md:p-20 pt-[100px] gap-10 bg-[#EDECED] text-[#131411]"
@@ -296,6 +267,81 @@ export default function Home() {
           </div>
 
           {/* NEXT */}
+        </div>
+      </div>
+
+      {/* -------------- PROJECTS --------------*/}
+      <div
+        className="min-h-screen bg-[#EDECED] text-[#131411] p-10 w-full"
+        // className="min-h-screen w-full flex flex-col p-10 md:p-20 pt-[100px] gap-10 bg-[#EDECED] text-[#131411]"
+        id="projects"
+      >
+        <div>
+          <div className="container grid md:grid-cols-3 gap-8 items-center mb-4">
+            <div className="md:col-start-2 md:col-span-2">
+              <h2 className="inline-block bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">
+                projects
+              </h2>
+            </div>
+          </div>
+
+          {/* ITINERAIRY */}
+          <div className="flex flex-col justify-center items-center gap-5 text-[#354259] mb-20">
+            <img
+              src="itinerairy.jpg"
+              alt="itinerairy UI"
+              className="w-3/5 border-4 rounded-md border-[#7F789590]"
+            />
+            <div className="flex flex-col justify-ceenter items-center w-1/2">
+              <h2 className="uppercase font-bold text-xl">ITINERAIRY</h2>
+              <h3 className=" italic text-lg mb-5 text-gray-600">
+                Innovating travel with AI-driven planning
+              </h3>
+              <p className="text-center text-gray-500">
+                A sophisticated web application utilizing Next.js and enhanced
+                by AI, ItinerAIry offers users an interactive platform for
+                crafting tailored travel itineraries. The system intelligently
+                adapts to individual preferences using OpenAI's GPT, supports
+                real-time collaborative planning, and incorporates advanced
+                features such as a multi-currency budget tracker and a personal
+                travel bucket list, all orchestrated within a seamless
+                user-centric design.
+              </p>
+              <div className="flex flex-row gap-5">
+                <Badge>JavaScript</Badge>
+                <Badge variant="secondary">OpenAI</Badge>
+                <Badge variant="outline">SQL</Badge>
+                <Badge>Next.js</Badge>
+              </div>
+            </div>
+          </div>
+
+          {/* NExt */}
+          <div className="container grid md:grid-cols-2 gap-8 md:gap-20 items-center justify-center">
+            <div className="flex flex-col items-center text-center justify-center">
+              <img
+                src="aimusicgen.png"
+                alt="ai musig generator UI"
+                className="w-4/5 border-4 rounded-md border-[#7F789590]"
+              />
+              <div className="flex flex-col justify-ceenter items-center w-4/5">
+                <h2 className="uppercase font-bold text-xl">
+                  AI Music Generator
+                </h2>
+                <h3 className=" italic text-lg mb-5 text-gray-600">
+                  Music Generation powered by AI
+                </h3>
+                <p className="text-center text-gray-500">
+                  An innovative web application designed for indie artists and
+                  garage bands, offering AI-generated music samples for creative
+                  inspiration. It features intuitive music generation and
+                  editing, allowing users to craft unique compositions and
+                  transform existing pieces, elevating the music creation
+                  process with technology-driven novelty and personalization.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
