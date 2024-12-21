@@ -14,11 +14,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="blue_fav.png" />
+        <link rel="icon" href="/favicon.png" />
       </head>
       <body className={inter.className}>
         {/* <Navbar /> */}
-        <NavBar/>
+        <NavBar />
         <main className="flex min-h-screen w-full flex-col items-center justify-center z-30">
           {children}
         </main>
