@@ -77,6 +77,11 @@ export default function Home() {
               </h2>
             </div>
           </div>
+          {/* <div className="flex flex-row items-center justify-center mb-4">
+            <h2 className="inline-block bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">
+              projects
+            </h2>
+          </div> */}
           <ProjectsGrid />
 
         </div>
