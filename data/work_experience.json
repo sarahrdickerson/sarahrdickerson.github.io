@@ -1,16 +1,41 @@
 [
     {
-      "dates": "Jan 2024 - Present",
+        "dates": "Jun 2024 - Present",
+        "title": "Associate Software Engineer",
+        "company": "American Airlines",
+        "companyLink": "https://www.aa.com",
+        "location": "Dallas, TX",
+        "type": "Full-Time",
+        "bulletPoints": [
+            "Modernized legacy app by rewriting the Java 8 codebase in Java 21 and migrating it to Azure cloud",
+            "Reduced team's tech debt score from 47.03 to 23.44 by addressing 53 critical and high vulnerabilities over 3 apps"
+        ]
+    },
+    {
+      "dates": "Jan 2024 - May 2024",
       "title": "AI Software Engineering Intern",
       "company": "Aristocrat",
       "companyLink": "https://www.aristocrat.com",
       "location": "Austin, TX",
       "type": "Co-Op",
       "bulletPoints": [
-        "Leveraged Large Language Models (LLMs) and Generative AI to engineer an AI-powered Avatar Dealer in Unreal Engine 5, enabling intelligent and context-aware responses in real-time",
-        "Implemented Text-to-Speech (TTS) and Speech-to-Text (STT) models to simulate lifelike human interactions, elevating the immersive quality of in-game experiences",
-        "Integrated NVIDIA Omniverse for seamless real-time rendering of lip-synced audio for avatar's responses"
-      ]
+        "Enhanced in-game avatar responses by leveraging Large Language Models and Generative AI in Unreal Engine 5",
+        "Integrated TTS and STT models for lifelike avatar interactions, contributing to more seamless gameplay",
+        "Improved real-time rendering by integrating NVIDIA Omniverse, reducing latency for audio lip-sync animations"
+        ]
+    },
+    {
+        "dates": "Jan 2024 - Apr 2024",
+        "title": "Lead Undergraduate Teaching Assistant",
+        "company": "UT Austin",
+        "companyLink": "https://www.utexas.edu",
+        "location": "Austin, TX",
+        "type": "Part-Time",
+        "bulletPoints": [
+            "Served as the lead Undergraduate Teaching Assistant, coordinating the efforts of other TAs and serving as a liaison between students and the professor",
+            "Continued to lead recitation sessions and provide comprehensive support for 15-20 students on advanced C/C++ topics, maintaining high standards of academic success and engagement",
+            "Ensured consistent delivery of educational support for 80 students, including leading office hours and conducting exam reviews, mirroring prior responsibilities with added leadership duties"
+        ]
     },
     {
       "dates": "Jun 2023 - Aug 2023",
@@ -20,9 +45,9 @@
       "location": "Austin, TX",
       "type": "Internship",
       "bulletPoints": [
-        "Enhanced the metadata management of Simplicity Studio IDE by resolving bug and feature tickets in the product's extensive Java codebase, driving continuous improvement of company software",
-        "Increased average code coverage on 4 C++ projects from 21.5% to 81.5% by developing and expanding unit tests and optimizing Makefiles, significantly enhancing overall code quality and unit test effectiveness"
-      ]
+        "Increased code coverage from 21.5% to 81.5% across 4 C++ projects by expanding unit tests and Makefiles",
+        "Resolved 18 Java bug and feature requests for Simplicity Studio IDE, improving team's product stability"
+    ]
     },
     {
       "dates": "Sep 2022 - Apr 2023",
@@ -45,8 +70,9 @@
       "location": "Austin, TX",
       "type": "Part-Time",
       "bulletPoints": [
-        "Led weekly recitation sessions for 15-20 students on C/C++ topics, data structures, algorithms, and more, resulting in heightened comprehension and academic success within my section"
-      ]
+        "Led weekly recitation sessions for 15-20 students on C/C++ topics, data structures, algorithms, and more, resulting in heightened comprehension and academic success within my section",
+        "Created detailed supplemental resources praised by students, increasing satisfaction ratings for course by 15%"
+    ]
     }
 ]
   
