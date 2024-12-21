@@ -1,13 +1,14 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar'
+import NavBar from "@/components/navbar";
+import "./globals.css";
+import { Inter } from "next/font/google";
+// import Navbar from '@/components/Navbar'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Sarah Dickerson',
-  description: 'My personal CV and portfolio website.',
-}
+  title: "Sarah Dickerson",
+  description: "My personal CV and portfolio website.",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -16,11 +17,12 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="blue_fav.png" />
       </head>
       <body className={inter.className}>
-        <Navbar />
+        {/* <Navbar /> */}
+        <NavBar/>
         <main className="flex min-h-screen w-full flex-col items-center justify-center z-30">
-            {children}
+          {children}
         </main>
       </body>
     </html>
-  )
+  );
 }
