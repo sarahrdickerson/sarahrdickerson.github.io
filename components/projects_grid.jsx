@@ -23,6 +23,8 @@ import { Badge } from "./ui/badge";
 import Link from "next/link";
 import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 
+import { ArrowRightIcon } from "@radix-ui/react-icons";
+
 const ProjectsGrid = () => {
   return (
     <div className="container grid md:grid-cols-2 gap-8 items-center place-items-center mb-4">
@@ -40,7 +42,11 @@ const ProjectsGrid = () => {
                 />
               </CardHeader>
               <CardContent className="space-y-2">
-                <CardTitle className="text-[#354259]">{project.name}</CardTitle>
+                <CardTitle className="text-[rgb(53,66,89)]">
+                  <div className="flex flex-row space-x-2 items-center">
+                    <h1>{project.name}</h1> <ArrowRightIcon />
+                  </div>
+                </CardTitle>
                 <CardDescription>{project.short_description}</CardDescription>
               </CardContent>
             </Card>
