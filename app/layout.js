@@ -1,3 +1,4 @@
+import NavBar from "@/components/navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 // import Navbar from '@/components/Navbar'
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         {/* <Navbar /> */}
+        <NavBar/>
         <main className="flex min-h-screen w-full flex-col items-center justify-center z-30">
           {children}
         </main>
