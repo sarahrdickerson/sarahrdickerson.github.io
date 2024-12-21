@@ -1,29 +1,42 @@
 [
     {
         "id": 1,
-        "name": "Project 1",
-        "short_description": "This is project 1",
-        "description": "This is a project description",
-        "tools": ["HTML", "CSS", "JavaScript"],
+        "name": "Skincare Shelf",
+        "short_description": "AI-powered app for personalized skincare analysis and product recommendations",
+        "description": "Developed a web-based skincare recommendation platform leveraging AI to analyze product ingredients and provide personalized suggestions. Built using Next.js, Python, and FastAPI, with a scalable database of skincare products and user-generated ratings to enhance discoverability and improve user skin health outcomes.",
+        "tools": ["Next.js", "Python", "FastAPI", "SQL"],
         "image": "/aimusicgen.png",
+        "cover": "/projects/covers/skincare.png",
         "link": "https://www.google.com"
     },
     {
         "id": 2,
-        "name": "Project 2",
-        "short_description": "This is project 2",
-        "description": "This is a project description",
-        "tools": ["HTML", "CSS", "JavaScript"],
+        "name": "AI Music Generator",
+        "short_description": "Full-stack platform for real-time AI-powered music generation",
+        "description": "Led a team of 6 to create a full-stack platform integrating 4 AI models for dynamic, real-time music generation. Architected scalable infrastructure using Next.js, Flask, and MongoDB, and deployed the application on Heroku. Designed efficient database structures to optimize data storage and retrieval operations.",
+        "tools": ["Next.js", "Python", "Flask", "MongoDB", "Heroku"],
         "image": "/itinerairy.jpg",
+        "cover": "/projects/covers/ai_musicgen.png",
         "link": "https://www.google.com"
     },
     {
         "id": 3,
-        "name": "Project 3",
-        "short_description": "This is project 3",
-        "description": "This is a project description",
-        "tools": ["HTML", "CSS", "JavaScript"],
+        "name": "Avatar Dealer",
+        "short_description": "Unreal Engine 5 project enhancing avatar interactions using AI",
+        "description": "Enhanced in-game avatar responses with Large Language Models and Generative AI in Unreal Engine 5. Integrated TTS and STT models for lifelike interactions, contributing to seamless gameplay. Improved real-time rendering with NVIDIA Omniverse, reducing latency for audio lip-sync animations.",
+        "tools": ["Unreal Engine 5", "NVIDIA Omniverse", "Generative AI"],
         "image": "/itinerairy.jpg",
+        "cover": "/projects/covers/avatar.png",
+        "link": "https://www.google.com"
+    },
+    {
+        "id": 4,
+        "name": "Mobile Loyalty App",
+        "short_description": "Proof-of-concept loyalty app with NFC and mobile wallet integration",
+        "description": "Developed a proof-of-concept loyalty app using Angular for NFC communication with gambling machines. Automated mobile wallet pass generation with Python scripts for seamless integration into the loyalty app, streamlining user rewards management.",
+        "tools": ["Angular", "Python", "NFC"],
+        "image": "/itinerairy.jpg",
+        "cover": "/projects/covers/aristocrat_app.png",
         "link": "https://www.google.com"
     }
 ]

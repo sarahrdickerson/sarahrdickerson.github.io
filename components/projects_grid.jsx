@@ -34,7 +34,7 @@ const ProjectsGrid = () => {
               <CardHeader>
                     <AspectRatio ratio={4/3}>
                         <Image
-                            src={project.image}
+                            src={project.cover}
                             width={600}
                             height={300}
                             alt={project.name}
