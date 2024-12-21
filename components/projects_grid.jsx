@@ -56,17 +56,27 @@ const ProjectsGrid = () => {
                 </div>
               </DialogTitle>
               <div className="flex flex-col space-y-4 items-center">
-                  {project.image && (
-                    <Link href={project.link} target="_blank">
-                    <Image
-                      src={project.image}
-                      width={600}
-                      height={300}
-                      alt={project.name}
-                      className=""
-                    />
-                  </Link>
-                  )}
+                {project.image && project.link ? (
+                        <Link href={project.link} target="_blank">
+                            <Image
+                                src={project.image}
+                                width={600}
+                                height={300}
+                                alt={project.name}
+                                className=""
+                            />
+                        </Link>
+                    ) : (
+                        project.image && (
+                            <Image
+                                src={project.image}
+                                width={600}
+                                height={300}
+                                alt={project.name}
+                                className=""
+                            />
+                        )
+                )}
                   <p className="text-[#131411]">{project.description}</p>
                   <div className="flex flex-row space-x-4">
                     {project.tools.map((tool, index) => (

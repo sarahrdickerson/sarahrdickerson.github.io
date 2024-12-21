@@ -3,29 +3,26 @@
         "id": 1,
         "name": "Skincare Shelf",
         "short_description": "AI-powered app for personalized skincare analysis and product recommendations",
-        "description": "Developed a web-based skincare recommendation platform leveraging AI to analyze product ingredients and provide personalized suggestions. Built using Next.js, Python, and FastAPI, with a scalable database of skincare products and user-generated ratings to enhance discoverability and improve user skin health outcomes.",
+        "description": "Skincare Shelf is a web-based platform designed to help users make informed skincare choices by analyzing ingredients and providing personalized product recommendations. I am developing this app using Next.js, Python, and FastAPI. The platform includes a scalable database of skincare products and user-generated ratings, improving product discoverability and user outcomes.",
         "tools": ["Next.js", "Python", "FastAPI", "SQL"],
-        "image": "/aimusicgen.png",
         "cover": "/projects/covers/skincare.png",
-        "link": "https://www.google.com",
         "in_progress": true
     },
     {
         "id": 2,
         "name": "AI Music Generator",
         "short_description": "Full-stack platform for real-time AI-powered music generation",
-        "description": "Led a team of 6 to create a full-stack platform integrating 4 AI models for dynamic, real-time music generation. Architected scalable infrastructure using Next.js, Flask, and MongoDB, and deployed the application on Heroku. Designed efficient database structures to optimize data storage and retrieval operations.",
+        "description": "The AI Music Generator is a full-stack application that creates dynamic, real-time music using AI models. It provides an intuitive interface for users to interact with AI-powered compositions. I led a team of six to design and implement the platform, integrating four AI models and deploying it on Heroku. I also built the backend using Flask and MongoDB for efficient data storage and retrieval.",
         "tools": ["Next.js", "Python", "Flask", "MongoDB", "Heroku"],
-        "image": "/itinerairy.jpg",
+        "image": "/aimusicgen.png",
         "cover": "/projects/covers/ai_musicgen.png",
-        "link": "https://www.google.com",
         "in_progress": false
     },
     {
         "id": 3,
         "name": "Avatar Dealer",
         "short_description": "Unreal Engine 5 project enhancing avatar interactions using AI",
-        "description": "Enhanced in-game avatar responses with Large Language Models and Generative AI in Unreal Engine 5. Integrated TTS and STT models for lifelike interactions, contributing to seamless gameplay. Improved real-time rendering with NVIDIA Omniverse, reducing latency for audio lip-sync animations.",
+        "description": "Avatar Dealer enhances in-game interactions with lifelike AI-powered avatars in Unreal Engine 5. The project leverages advanced AI models, including TTS (text-to-speech) and STT (speech-to-text), to make avatars more responsive and immersive. I integrated these models and used NVIDIA Omniverse to improve real-time rendering, reducing latency in audio lip-sync animations for seamless gameplay. This project was completed during my Spring 2024 internship at Aristocrat.",
         "tools": ["Unreal Engine 5", "NVIDIA Omniverse", "Generative AI"],
         "cover": "/projects/covers/avatar.png",
         "in_progress": false
@@ -34,7 +31,7 @@
         "id": 4,
         "name": "Mobile Loyalty App",
         "short_description": "Proof-of-concept loyalty app with NFC and mobile wallet integration",
-        "description": "Developed a proof-of-concept loyalty app using Angular for NFC communication with gambling machines. Automated mobile wallet pass generation with Python scripts for seamless integration into the loyalty app, streamlining user rewards management.",
+        "description": "This Mobile Loyalty App enables seamless NFC communication with gambling machines, allowing users to earn and manage rewards digitally. I developed this proof-of-concept app using Angular, creating a user-friendly interface for loyalty management. Additionally, I automated mobile wallet pass generation using Python scripts to streamline rewards integration. This project was completed during my Fall 2022/Spring 2023 internship at Aristocrat.",
         "tools": ["Angular", "Python", "NFC"],
         "cover": "/projects/covers/aristocrat_app.png",
         "in_progress": false
