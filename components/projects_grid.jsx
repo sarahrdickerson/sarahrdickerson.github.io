@@ -49,9 +49,16 @@ const ProjectsGrid = () => {
           </DialogTrigger>
           <DialogContent>
             <DialogHeader>
-              <DialogTitle>{project.name}</DialogTitle>
+              <DialogTitle>
+                <div className='flex flex-row justify-between items-center'>
+                    {project.name} {project.in_progress && (
+                        <Badge variant="one" className="mr-6">In Progress</Badge>
+                    )}
+                </div>
+              </DialogTitle>
               <div className="flex flex-col space-y-4 items-center">
-                  <Link href={project.link} target="_blank">
+                  {project.image && (
+                    <Link href={project.link} target="_blank">
                     <Image
                       src={project.image}
                       width={600}
@@ -60,6 +67,7 @@ const ProjectsGrid = () => {
                       className=""
                     />
                   </Link>
+                  )}
                   <p className="text-[#131411]">{project.description}</p>
                   <div className="flex flex-row space-x-4">
                     {project.tools.map((tool, index) => (

@@ -7,7 +7,8 @@
         "tools": ["Next.js", "Python", "FastAPI", "SQL"],
         "image": "/aimusicgen.png",
         "cover": "/projects/covers/skincare.png",
-        "link": "https://www.google.com"
+        "link": "https://www.google.com",
+        "in_progress": true
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "tools": ["Next.js", "Python", "Flask", "MongoDB", "Heroku"],
         "image": "/itinerairy.jpg",
         "cover": "/projects/covers/ai_musicgen.png",
-        "link": "https://www.google.com"
+        "link": "https://www.google.com",
+        "in_progress": false
     },
     {
         "id": 3,
@@ -25,9 +27,8 @@
         "short_description": "Unreal Engine 5 project enhancing avatar interactions using AI",
         "description": "Enhanced in-game avatar responses with Large Language Models and Generative AI in Unreal Engine 5. Integrated TTS and STT models for lifelike interactions, contributing to seamless gameplay. Improved real-time rendering with NVIDIA Omniverse, reducing latency for audio lip-sync animations.",
         "tools": ["Unreal Engine 5", "NVIDIA Omniverse", "Generative AI"],
-        "image": "/itinerairy.jpg",
         "cover": "/projects/covers/avatar.png",
-        "link": "https://www.google.com"
+        "in_progress": false
     },
     {
         "id": 4,
@@ -35,8 +36,7 @@
         "short_description": "Proof-of-concept loyalty app with NFC and mobile wallet integration",
         "description": "Developed a proof-of-concept loyalty app using Angular for NFC communication with gambling machines. Automated mobile wallet pass generation with Python scripts for seamless integration into the loyalty app, streamlining user rewards management.",
         "tools": ["Angular", "Python", "NFC"],
-        "image": "/itinerairy.jpg",
         "cover": "/projects/covers/aristocrat_app.png",
-        "link": "https://www.google.com"
+        "in_progress": false
     }
 ]
