@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Project 1",
+        "short_description": "This is project 1",
+        "description": "This is a project description",
+        "tools": ["HTML", "CSS", "JavaScript"],
+        "image": "/aimusicgen.png",
+        "link": "https://www.google.com"
+    },
+    {
+        "id": 2,
+        "name": "Project 2",
+        "short_description": "This is project 2",
+        "description": "This is a project description",
+        "tools": ["HTML", "CSS", "JavaScript"],
+        "image": "/itinerairy.jpg",
+        "link": "https://www.google.com"
+    },
+    {
+        "id": 3,
+        "name": "Project 3",
+        "short_description": "This is project 3",
+        "description": "This is a project description",
+        "tools": ["HTML", "CSS", "JavaScript"],
+        "image": "/itinerairy.jpg",
+        "link": "https://www.google.com"
+    }
+]

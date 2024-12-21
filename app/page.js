@@ -4,6 +4,7 @@ import { LinkedInLogoIcon, GitHubLogoIcon, FileTextIcon} from "@radix-ui/react-i
 import { Badge } from "@/components/ui/badge";
 import CodeEditor from "@/components/code_editor";
 import Experience from "@/components/work_experience";
+import ProjectsGrid from "@/components/projects_grid";
 
 export default function Home() {
   return (
@@ -62,6 +63,25 @@ export default function Home() {
         </div>
       </div>
 
+      {/* -------------- PROJECTS --------------*/}
+      <div
+        className=" bg-[#EDECED] text-[#131411] p-10 w-full"
+        // className="min-h-screen w-full flex flex-col p-10 md:p-20 pt-[100px] gap-10 bg-[#EDECED] text-[#131411]"
+        id="projects"
+      >
+        <div>
+          <div className="container grid md:grid-cols-3 gap-8 items-center mb-4">
+            <div className="md:col-start-2 md:col-span-2">
+              <h2 className="inline-block bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">
+                projects
+              </h2>
+            </div>
+          </div>
+          <ProjectsGrid />
+
+        </div>
+      </div>
+
       {/* -------------- EXPERIENCE -------------- */}
       <div
         className="min-h-screen bg-[#EDECED] text-[#131411] p-10"
@@ -115,23 +135,6 @@ export default function Home() {
 
       </div>
 
-      {/* -------------- PROJECTS --------------*/}
-      <div
-        className="min-h-screen bg-[#EDECED] text-[#131411] p-10 w-full"
-        // className="min-h-screen w-full flex flex-col p-10 md:p-20 pt-[100px] gap-10 bg-[#EDECED] text-[#131411]"
-        id="projects"
-      >
-        <div>
-          <div className="container grid md:grid-cols-3 gap-8 items-center mb-4">
-            <div className="md:col-start-2 md:col-span-2">
-              <h2 className="inline-block bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">
-                projects
-              </h2>
-            </div>
-          </div>
-
-        </div>
-      </div>
     </div>
   );
 }
