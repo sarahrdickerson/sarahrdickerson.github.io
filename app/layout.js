@@ -8,6 +8,22 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Sarah Dickerson",
   description: "My personal CV and portfolio website.",
+  metadataBase:
+    process.env.NODE_ENV === "production"
+      ? new URL("https://sarahrdickerson.github.io")
+      : new URL("http://localhost:3000"),
+  openGraph: {
+    title: "Sarah Dickerson Portfolio",
+    description: "My personal CV and portfolio website.",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Open Graph Image",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
