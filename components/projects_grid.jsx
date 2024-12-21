@@ -30,8 +30,8 @@ const ProjectsGrid = () => {
         {projects.map((project) => (
         <Dialog key={project.id}>
           <DialogTrigger asChild>
-            <Card className="w-full">
-              <CardHeader>
+            <Card className="w-full hover:cursor-pointer">
+              <CardHeader className="hover:opacity-80 transition ease-in-out duration-300">
                     <AspectRatio ratio={4/3}>
                         <Image
                             src={project.cover}
@@ -39,7 +39,7 @@ const ProjectsGrid = () => {
                             height={300}
                             alt={project.name}
                             className="rounded-t-xl"
-                        />
+                            />
                     </AspectRatio>
               </CardHeader>
               <CardContent>
