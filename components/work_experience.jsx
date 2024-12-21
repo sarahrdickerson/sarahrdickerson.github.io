@@ -33,7 +33,7 @@ export default function Experience() {
               <h3 className="text-xl font-bold text-[#7F7895]">
                 {job.title}
                 <a
-                  className="italic font-light hover:text-[#BBB1D2] transition duration-300 ease-in-out"
+                  className="italic font-light hover:text-[#354259] transition duration-300 ease-in-out"
                   href={job.companyLink}
                   target="_blank"
                   rel="noopener noreferrer"

@@ -65,7 +65,7 @@ export default function Home() {
 
       {/* -------------- PROJECTS --------------*/}
       <div
-        className=" bg-[#EDECED] text-[#131411] p-10 w-full"
+        className=" bg-[#EDECED] text-[#131411] py-10 md:px-10 w-full"
         // className="min-h-screen w-full flex flex-col p-10 md:p-20 pt-[100px] gap-10 bg-[#EDECED] text-[#131411]"
         id="projects"
       >
@@ -84,7 +84,7 @@ export default function Home() {
 
       {/* -------------- EXPERIENCE -------------- */}
       <div
-        className="min-h-screen bg-[#EDECED] text-[#131411] p-10 w-full"
+        className="min-h-screen bg-[#EDECED] text-[#131411] py-10 md:px-10 w-full"
         // className="min-h-screen w-full flex flex-col p-10 md:p-20 pt-[100px] gap-10 bg-[#EDECED] text-[#131411]"
         id="experience"
       >

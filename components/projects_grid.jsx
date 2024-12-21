@@ -32,17 +32,16 @@ const ProjectsGrid = () => {
           <DialogTrigger asChild>
             <Card className="w-full hover:cursor-pointer">
               <CardHeader className="hover:opacity-80 transition ease-in-out duration-300">
-                    <AspectRatio ratio={4/3}>
-                        <Image
-                            src={project.cover}
-                            width={600}
-                            height={300}
-                            alt={project.name}
-                            className="rounded-t-xl"
-                            />
-                    </AspectRatio>
+                <Image
+                    src={project.cover}
+                    width={600}
+                    height={300}
+                    alt={project.name}
+                    className="rounded-t-xl h-full w-full"
+                />
               </CardHeader>
-              <CardContent>
+              <CardContent className="space-y-2">
+                <CardTitle className="text-[#354259]">{project.name}</CardTitle>
                 <CardDescription>{project.short_description}</CardDescription>
               </CardContent>
             </Card>
