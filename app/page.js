@@ -63,6 +63,30 @@ export default function Home() {
         </div>
       </div>
 
+      {/* -------------- About Me --------------*/}
+      <div
+        className=" bg-[#EDECED] text-[#131411] py-10 md:px-10 w-full"
+        // className="min-h-screen w-full flex flex-col p-10 md:p-20 pt-[100px] gap-10 bg-[#EDECED] text-[#131411]"
+        id="about"
+      >
+        <div>
+          <div className="flex flex-col items-center justify-center mb-4">
+            <h2 className="inline-block bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">
+              about me
+            </h2>
+
+            <p className="text-center max-w-xl mx-auto text-base md:text-lg leading-relaxed text-[#4b4f5e]">
+              Software engineer. <span className="italic">UT Austin</span> grad — ECE + Business minor.  
+              <br />
+              Dashboards. Side projects. Full-stack web apps.  
+              <br />
+              Currently at American Airlines ✈️, working on backend systems and internal tools.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+
       {/* -------------- PROJECTS --------------*/}
       <div
         className=" bg-[#EDECED] text-[#131411] py-10 md:px-10 w-full"
@@ -70,12 +94,10 @@ export default function Home() {
         id="projects"
       >
         <div>
-          <div className="container grid md:grid-cols-3 gap-8 items-center mb-4">
-            <div className="md:col-start-2 md:col-span-2">
-              <h2 className="inline-block bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">
-                projects
-              </h2>
-            </div>
+          <div className="flex flex-row items-center justify-center mb-4">
+            <h2 className="inline-block bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">
+              projects
+            </h2>
           </div>
           {/* <div className="flex flex-row items-center justify-center mb-4">
             <h2 className="inline-block bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">

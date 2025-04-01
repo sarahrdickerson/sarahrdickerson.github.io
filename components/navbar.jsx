@@ -56,6 +56,12 @@ const NavBar = () => {
                     <div className="flex flex-row space-x-4">
                         <h1
                             className="nav-item hover:cursor-pointer"
+                            onClick={() => handleScroll("#about")}
+                        >
+                            about
+                        </h1>
+                        <h1
+                            className="nav-item hover:cursor-pointer"
                             onClick={() => handleScroll("#projects")}
                         >
                             projects
