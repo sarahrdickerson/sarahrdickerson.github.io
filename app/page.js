@@ -1,10 +1,15 @@
 import Image from "next/image";
 import Typewriter from "@/components/typewriter";
-import { LinkedInLogoIcon, GitHubLogoIcon, FileTextIcon} from "@radix-ui/react-icons";
+import {
+  LinkedInLogoIcon,
+  GitHubLogoIcon,
+  FileTextIcon,
+} from "@radix-ui/react-icons";
 import { Badge } from "@/components/ui/badge";
 import CodeEditor from "@/components/code_editor";
 import Experience from "@/components/work_experience";
 import ProjectsGrid from "@/components/projects_grid";
+import PhotographyGrid from "@/components/photography_grid";
 
 export default function Home() {
   return (
@@ -27,12 +32,16 @@ export default function Home() {
             <h1 className="text-6xl font-semibold text-white">
               sarah dickerson<span className="text-[#354259]">,</span>
             </h1>
-            <h1 className="text-6xl font-semibold text-[#354259]">and i&apos;m a</h1>
-            <h1 className="text-6xl font-semibold text-white">
-              software
-              <br />
-              engineer<span className="text-[#354259]">.</span>
+            <h1 className="text-6xl font-semibold text-[#354259]">
+              and i&apos;m a
             </h1>
+            <h1 className="text-6xl font-semibold text-white">
+              <Typewriter />
+              {/* software
+              <br />
+              engineer<span className="text-[#354259]">.</span> */}
+            </h1>
+
             <div className="flex flex-row mt-5 gap-5 ">
               <a
                 href="https://www.linkedin.com/in/srdickerson"
@@ -76,14 +85,15 @@ export default function Home() {
             </h2>
 
             <p className="text-center max-w-xl mx-auto text-base md:text-lg leading-relaxed text-[#4b4f5e]">
-              Software engineer. <span className="italic">UT Austin</span> grad — ECE + Business minor.  
+              Software engineer. <span className="italic">UT Austin</span> grad
+              — ECE + Business minor.
               <br />
-              Dashboards. Side projects. Full-stack web apps.  
+              Dashboards. Side projects. Full-stack web apps.
               <br />
-              Currently at American Airlines ✈️, working on backend systems and internal tools.
+              Currently at American Airlines ✈️, working on backend systems and
+              internal tools.
             </p>
           </div>
-          
         </div>
       </div>
 
@@ -105,7 +115,20 @@ export default function Home() {
             </h2>
           </div> */}
           <ProjectsGrid />
+        </div>
+      </div>
 
+      {/* -------------- PHOTOGRAPHY -------------- */}
+      <div
+        className="min-h-screen bg-[#BBB1D275] text-[#131411] py-10 md:px-10 w-full"
+        id="photography"
+      >
+        <div className="flex flex-col items-center justify-center mb-4">
+          <h2 className="bg-[#BBB1D275] text-2xl py-2 px-4 md:-ml-4 mb-4 font-semibold text-[#354259]">
+            photography
+          </h2>
+
+          <PhotographyGrid />
         </div>
       </div>
 
@@ -151,17 +174,14 @@ export default function Home() {
           <div className="absolute inset-0">
             <div className="container grid md:grid-cols-3 gap-8 items-center h-full w-full">
               <div className="md:col-start-2 h-full pt-16 ml-2">
-                <div className="w-0.5 bg-gray-500 h-full"></div> 
+                <div className="w-0.5 bg-gray-500 h-full"></div>
               </div>
             </div>
           </div>
 
-          <Experience/>
-
+          <Experience />
         </div>
-
       </div>
-
     </div>
   );
 }

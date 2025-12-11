@@ -1,0 +1,74 @@
+[
+  {
+    "src": "/photos/mtfuji.jpg",
+    "width": 600,
+    "height": 900
+  },
+  {
+    "src": "/photos/looking.jpg",
+    "width": 900,
+    "height": 600
+  },
+  {
+    "src": "/photos/wave.jpg",
+    "width": 600,
+    "height": 900
+  },
+  {
+    "src": "/photos/motorcycle.jpg",
+    "width": 1000,
+    "height": 800
+  },
+  {
+    "src": "/photos/mountain_sky.jpg",
+    "width": 900,
+    "height": 600
+  },
+  {
+    "src": "/photos/narrows.jpg",
+    "width": 600,
+    "height": 900
+  },
+  {
+    "src": "/photos/matterhorn.jpg",
+    "width": 600,
+    "height": 900
+  },
+
+  {
+    "src": "/photos/looking2.jpg",
+    "width": 900,
+    "height": 600
+  },
+  {
+    "src": "/photos/soleduck.jpg",
+    "width": 900,
+    "height": 600
+  },
+  {
+    "src": "/photos/thailand_boat.jpg",
+    "width": 600,
+    "height": 900
+  },
+  {
+    "src": "/photos/road.jpg",
+    "width": 600,
+    "height": 900
+  },
+
+  {
+    "src": "/photos/olympic_water.jpg",
+    "width": 600,
+    "height": 900
+  },
+  {
+    "src": "/photos/van.jpg",
+    "width": 600,
+    "height": 900
+  },
+  {
+    "src": "/photos/sky.jpg",
+    "width": 1000,
+    "height": 800
+  }
+]
