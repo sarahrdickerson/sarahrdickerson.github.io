@@ -1,13 +1,13 @@
 import React from "react";
-import { MasonryPhotoAlbum } from "react-photo-album";
-import "react-photo-album/masonry.css";
+import PhotoAlbum from "react-photo-album";
+import "react-photo-album/styles.css";
 
 import photos from "@/data/photos.json";
 
 const PhotographyGrid = () => {
   return (
     <div className="w-full ">
-      <MasonryPhotoAlbum photos={photos} />
+      <PhotoAlbum layout="masonry" photos={photos} />
     </div>
   );
 };
