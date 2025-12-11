@@ -1,78 +1,80 @@
 [
-    {
-        "dates": "Jun 2024 - Present",
-        "title": "Associate Software Engineer",
-        "company": "American Airlines",
-        "companyLink": "https://www.aa.com",
-        "location": "Dallas, TX",
-        "type": "Full-Time",
-        "bulletPoints": [
-            "Modernized legacy app by rewriting the Java 8 codebase in Java 21 and migrating it to Azure cloud",
-            "Reduced team's tech debt score from 47.03 to 23.44 by addressing 53 critical and high vulnerabilities over 3 apps"
-        ]
-    },
-    {
-      "dates": "Jan 2024 - May 2024",
-      "title": "AI Software Engineering Intern",
-      "company": "Aristocrat",
-      "companyLink": "https://www.aristocrat.com",
-      "location": "Austin, TX",
-      "type": "Co-Op",
-      "bulletPoints": [
-        "Enhanced in-game avatar responses by leveraging Large Language Models and Generative AI in Unreal Engine 5",
-        "Integrated TTS and STT models for lifelike avatar interactions, contributing to more seamless gameplay",
-        "Improved real-time rendering by integrating NVIDIA Omniverse, reducing latency for audio lip-sync animations"
-        ]
-    },
-    {
-        "dates": "Jan 2024 - Apr 2024",
-        "title": "Lead Undergraduate Teaching Assistant",
-        "company": "UT Austin",
-        "companyLink": "https://www.utexas.edu",
-        "location": "Austin, TX",
-        "type": "Part-Time",
-        "bulletPoints": [
-            "Served as the lead Undergraduate Teaching Assistant, coordinating the efforts of other TAs and serving as a liaison between students and the professor",
-            "Continued to lead recitation sessions and provide comprehensive support for 15-20 students on advanced C/C++ topics, maintaining high standards of academic success and engagement",
-            "Ensured consistent delivery of educational support for 80 students, including leading office hours and conducting exam reviews, mirroring prior responsibilities with added leadership duties"
-        ]
-    },
-    {
-      "dates": "Jun 2023 - Aug 2023",
-      "title": "Software Engineering Intern",
-      "company": "Silicon Labs",
-      "companyLink": "https://www.silabs.com",
-      "location": "Austin, TX",
-      "type": "Internship",
-      "bulletPoints": [
-        "Increased code coverage from 21.5% to 81.5% across 4 C++ projects by expanding unit tests and Makefiles",
-        "Resolved 18 Java bug and feature requests for Simplicity Studio IDE, improving team's product stability"
+  {
+    "dates": "Jun 2024 - Present",
+    "title": "Associate Software Engineer",
+    "company": "American Airlines",
+    "companyLink": "https://www.aa.com",
+    "location": "Dallas, TX",
+    "type": "Full-Time",
+    "bulletPoints": [
+      "Developed backend features for DOT-mandated wheelchair tracking, integrating real-time data into flight payloads supporting operations for 6,000+ daily flights",
+      "Streamlined two critical high-traffic Java API endpoints by parallelizing external calls and removing redundant upstream requests, reducing response times to downstream applications by ~60%",
+      "Created an Angular web app with a frontend dashboard capturing 8 key daily flight swap metrics in an indexable dataset, increasing operational visibility and reducing risk scenarios for all flights with plane swaps",
+      "Refactored an internal Java 8 codebase to Java 21 and redesigned outdated API logic following RESTful patterns",
+      "Reduced team's tech debt score from 47.03 to 23.44 by addressing 53 critical and high vulnerabilities over 3 apps"
     ]
-    },
-    {
-      "dates": "Sep 2022 - Apr 2023",
-      "title": "Software Engineering Intern",
-      "company": "Aristocrat",
-      "companyLink": "https://www.aristocrat.com",
-      "location": "Austin, TX",
-      "type": "Co-Op",
-      "bulletPoints": [
-        "Developed a proof-of-concept loyalty app using Angular, facilitating seamless NFC communication from mobile wallet passes to electronic gambling machines, enhancing user experience and connectivity",
-        "Demonstrated the app's capabilities with sample wallet passes, showcasing its potential to executives",
-        "Automated wallet pass generation using Python scripts, facilitating integration into the loyalty app"
-      ]
-    },
-    {
-      "dates": "Jan 2022 - Apr 2023",
-      "title": "Undergraduate Teaching Assistant",
-      "company": "UT Austin",
-      "companyLink": "https://www.utexas.edu",
-      "location": "Austin, TX",
-      "type": "Part-Time",
-      "bulletPoints": [
-        "Led weekly recitation sessions for 15-20 students on C/C++ topics, data structures, algorithms, and more, resulting in heightened comprehension and academic success within my section",
-        "Created detailed supplemental resources praised by students, increasing satisfaction ratings for course by 15%"
+  },
+  {
+    "dates": "Jan 2024 - May 2024",
+    "title": "AI Software Engineering Intern",
+    "company": "Aristocrat",
+    "companyLink": "https://www.aristocrat.com",
+    "location": "Austin, TX",
+    "type": "Co-Op",
+    "bulletPoints": [
+      "Enhanced in-game avatar responses by leveraging Large Language Models and Generative AI in Unreal Engine 5",
+      "Integrated TTS and STT models for lifelike avatar interactions, contributing to more seamless gameplay",
+      "Improved real-time rendering by integrating NVIDIA Omniverse, reducing latency for audio lip-sync animations"
     ]
-    }
+  },
+  {
+    "dates": "Jan 2024 - Apr 2024",
+    "title": "Lead Undergraduate Teaching Assistant",
+    "company": "UT Austin",
+    "companyLink": "https://www.utexas.edu",
+    "location": "Austin, TX",
+    "type": "Part-Time",
+    "bulletPoints": [
+      "Served as the lead Undergraduate Teaching Assistant, coordinating the efforts of other TAs and serving as a liaison between students and the professor",
+      "Continued to lead recitation sessions and provide comprehensive support for 15-20 students on advanced C/C++ topics, maintaining high standards of academic success and engagement",
+      "Ensured consistent delivery of educational support for 80 students, including leading office hours and conducting exam reviews, mirroring prior responsibilities with added leadership duties"
+    ]
+  },
+  {
+    "dates": "Jun 2023 - Aug 2023",
+    "title": "Software Engineering Intern",
+    "company": "Silicon Labs",
+    "companyLink": "https://www.silabs.com",
+    "location": "Austin, TX",
+    "type": "Internship",
+    "bulletPoints": [
+      "Increased code coverage from 21.5% to 81.5% across 4 C++ projects by expanding unit tests and Makefiles",
+      "Resolved 18 Java bug and feature requests for Simplicity Studio IDE, improving team's product stability"
+    ]
+  },
+  {
+    "dates": "Sep 2022 - Apr 2023",
+    "title": "Software Engineering Intern",
+    "company": "Aristocrat",
+    "companyLink": "https://www.aristocrat.com",
+    "location": "Austin, TX",
+    "type": "Co-Op",
+    "bulletPoints": [
+      "Developed a proof-of-concept loyalty app using Angular, facilitating seamless NFC communication from mobile wallet passes to electronic gambling machines, enhancing user experience and connectivity",
+      "Demonstrated the app's capabilities with sample wallet passes, showcasing its potential to executives",
+      "Automated wallet pass generation using Python scripts, facilitating integration into the loyalty app"
+    ]
+  },
+  {
+    "dates": "Jan 2022 - Apr 2023",
+    "title": "Undergraduate Teaching Assistant",
+    "company": "UT Austin",
+    "companyLink": "https://www.utexas.edu",
+    "location": "Austin, TX",
+    "type": "Part-Time",
+    "bulletPoints": [
+      "Led weekly recitation sessions for 15-20 students on C/C++ topics, data structures, algorithms, and more, resulting in heightened comprehension and academic success within my section",
+      "Created detailed supplemental resources praised by students, increasing satisfaction ratings for course by 15%"
+    ]
+  }
 ]
-  
