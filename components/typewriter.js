@@ -12,7 +12,7 @@ export default function Typewriter() {
         // "get_summary()<br/>^1500 + full stack developer<br/>+ ai-driven solutions<br/>+ smart technology integration<br/>+ committed to continuous learning<br/><br/><i>skills</i>: javascript, python, react, node.js, java, sql, nosql",
         "software engineer",
         "full stack developer",
-        "photographer",
+        "photo taker",
         "ski enthusiast",
         "sewing hobbyist",
         "software engineer",
