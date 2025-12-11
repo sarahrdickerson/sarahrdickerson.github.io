@@ -1,7 +1,12 @@
 "use client";
 
-import Link from "next/link";
 import { useState, useEffect } from "react";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 
 const NavBar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -56,7 +61,8 @@ const NavBar = () => {
               sarah dickerson
             </h1>
           </div>
-          <div className="flex flex-row space-x-4">
+          {/* Desktop Nav */}
+          <div className="hidden md:flex flex-row space-x-4">
             <h1
               className="nav-item hover:cursor-pointer"
               onClick={() => handleScroll("#about")}
@@ -81,6 +87,74 @@ const NavBar = () => {
             >
               experience
             </h1>
+          </div>
+          {/* Mobile nav */}
+          <div className="md:hidden flex items-center">
+            <Drawer>
+              <DrawerTrigger asChild>
+                <button aria-label="Open menu">
+                  <svg
+                    width="32"
+                    height="32"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M6 10h20M6 16h20M6 22h20" />
+                  </svg>
+                </button>
+              </DrawerTrigger>
+              <DrawerContent>
+                <DrawerClose asChild>
+                  <button
+                    className="nav-item font-semibold mb-8 bg-transparent border-none"
+                    onClick={() => setTimeout(() => handleScroll("#home"), 100)}
+                  >
+                    sarah dickerson
+                  </button>
+                </DrawerClose>
+                <DrawerClose asChild>
+                  <button
+                    className="nav-item mb-6 text-2xl bg-transparent border-none"
+                    onClick={() =>
+                      setTimeout(() => handleScroll("#about"), 100)
+                    }
+                  >
+                    about
+                  </button>
+                </DrawerClose>
+                <DrawerClose asChild>
+                  <button
+                    className="nav-item mb-6 text-2xl bg-transparent border-none"
+                    onClick={() =>
+                      setTimeout(() => handleScroll("#projects"), 100)
+                    }
+                  >
+                    projects
+                  </button>
+                </DrawerClose>
+                <DrawerClose asChild>
+                  <button
+                    className="nav-item mb-6 text-2xl bg-transparent border-none"
+                    onClick={() =>
+                      setTimeout(() => handleScroll("#photography"), 100)
+                    }
+                  >
+                    photography
+                  </button>
+                </DrawerClose>
+                <DrawerClose asChild>
+                  <button
+                    className="nav-item mb-6 text-2xl bg-transparent border-none"
+                    onClick={() =>
+                      setTimeout(() => handleScroll("#experience"), 100)
+                    }
+                  >
+                    experience
+                  </button>
+                </DrawerClose>
+              </DrawerContent>
+            </Drawer>
           </div>
         </div>
       </nav>
