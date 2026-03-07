@@ -23,7 +23,7 @@ import { Badge } from "./ui/badge";
 import Link from "next/link";
 import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 
-import { ArrowRightIcon } from "@radix-ui/react-icons";
+import { ArrowRightIcon, ExternalLinkIcon } from "@radix-ui/react-icons";
 
 const ProjectsGrid = () => {
   return (
@@ -55,7 +55,17 @@ const ProjectsGrid = () => {
             <DialogHeader>
               <DialogTitle>
                 <div className="flex flex-row justify-between items-center">
-                  {project.name}{" "}
+                  {project.link ? (
+                    <Link
+                      href={project.link}
+                      target="_blank"
+                      className="flex flex-row space-x-2 items-center hover:text-[#354259]/75 transition duration-300 ease-in-out"
+                    >
+                      <h1>{project.name}</h1> <ExternalLinkIcon />
+                    </Link>
+                  ) : (
+                    <h1>{project.name}</h1>
+                  )}
                   {project.in_progress && (
                     <Badge variant="one" className="mr-6">
                       In Progress
@@ -96,8 +106,8 @@ const ProjectsGrid = () => {
                         index % 3 === 0
                           ? "one"
                           : index % 3 === 1
-                          ? "two"
-                          : "three"
+                            ? "two"
+                            : "three"
                       }
                     >
                       {tool}
