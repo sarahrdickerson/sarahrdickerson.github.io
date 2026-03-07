@@ -35,7 +35,7 @@ export default function Home() {
             <h1 className="text-6xl font-semibold text-[#354259]">
               and i&apos;m a
             </h1>
-            <h1 className="text-6xl font-semibold text-white">
+            <h1 className="text-6xl font-semibold text-white min-h-[7.5rem]">
               <Typewriter />
               {/* software
               <br />
