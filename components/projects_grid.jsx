@@ -2,6 +2,7 @@
 import React from "react";
 import projects from "@/data/projects.json";
 
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -21,6 +22,9 @@ import { Badge } from "./ui/badge";
 import Link from "next/link";
 
 import { ArrowRightIcon, ExternalLinkIcon } from "@radix-ui/react-icons";
+
+const variants = ["one", "two", "three", "four", "five"];
+const getVariant = (str) => variants[str.charCodeAt(0) % 3];
 
 const ProjectsGrid = () => {
   return (
@@ -96,18 +100,21 @@ const ProjectsGrid = () => {
                 <p className="text-[#131411] break-words">
                   {project.description}
                 </p>
+
+                {project.link && (
+                  <Link
+                    href={project.link}
+                    target="_blank"
+                    className="flex flex-row space-x-2 items-center hover:text-[#354259]/75 transition duration-300 ease-in-out"
+                  >
+                    <Button variant="secondary">
+                      View Project <ExternalLinkIcon />
+                    </Button>
+                  </Link>
+                )}
                 <div className="flex flex-wrap gap-4 justify-center">
                   {project.tools.map((tool, index) => (
-                    <Badge
-                      key={index}
-                      variant={
-                        index % 3 === 0
-                          ? "one"
-                          : index % 3 === 1
-                            ? "two"
-                            : "three"
-                      }
-                    >
+                    <Badge key={index} variant={getVariant(tool)}>
                       {tool}
                     </Badge>
                   ))}

@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Spaced Algos",
     "short_description": "Spaced repetition platform for mastering coding problems",
-    "description": "Spaced Algos is a full-stack web application that helps developers retain coding knowledge through spaced repetition. The platform serves problems at algorithmically optimized intervals based on your recall performance, helping you build long-term memory for data structures and algorithms. Built with Next.js and Supabase, it features Google OAuth, a feedback system, and a clean dashboard to track your progress over time.",
-    "tools": ["Next.js", "Supabase", "Vercel", "TypeScript"],
+    "description": "I built Spaced Algos because I kept forgetting LeetCode problems between sessions, the classic grind-and-forget cycle. It uses a custom spaced repetition algorithm to schedule reviews at algorithmically optimized intervals based on your recall performance, so you actually build long-term memory instead of re-learning the same problems from scratch. Built with Next.js and Supabase, it includes Google OAuth, a repetition calendar, streak tracking, and a progress dashboard.",
+    "tools": ["Next.js", "React", "Supabase", "TypeScript", "SQL", "Vercel"],
     "image": "/spacedalgos-dash.png",
     "cover": "/projects/covers/spacedalgos.png",
     "in_progress": false,
@@ -18,8 +18,7 @@
     "tools": ["Next.js", "Python", "Flask", "MongoDB", "Heroku"],
     "image": "/aimusicgen.png",
     "cover": "/projects/covers/ai_musicgen.png",
-    "in_progress": false,
-    "link": "https://github.com/sarahrdickerson/SP11"
+    "in_progress": false
   },
   {
     "id": 3,
