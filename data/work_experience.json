@@ -6,12 +6,14 @@
     "companyLink": "https://www.aa.com",
     "location": "Dallas, TX",
     "type": "Full-Time",
+    "paragraphs": [
+      "I'm part of AA's ADEPT rotational software engineering program, currently on a flight operations team. The systems I work on are used by control tower operators at every AA station to manage the turnaround process for 6,000+ daily flights, so when something breaks or runs slow, real operations feel it.",
+      "The project I'm most proud of is an Angular frontend I led for a full-stack app that gave leadership their first tool to visualize passenger reaccommodation during equipment swaps. Before it existed, that data lived nowhere accessible. Now it does."
+    ],
     "bulletPoints": [
-      "Developed backend features for DOT-mandated wheelchair tracking, integrating real-time data into flight payloads supporting operations for 6,000+ daily flights",
-      "Streamlined two critical high-traffic Java API endpoints by parallelizing external calls and removing redundant upstream requests, reducing response times to downstream applications by ~60%",
-      "Created an Angular web app with a frontend dashboard capturing 8 key daily flight swap metrics in an indexable dataset, increasing operational visibility and reducing risk scenarios for all flights with plane swaps",
-      "Refactored an internal Java 8 codebase to Java 21 and redesigned outdated API logic following RESTful patterns",
-      "Reduced team's tech debt score from 47.03 to 23.44 by addressing 53 critical and high vulnerabilities over 3 apps"
+      "Identified critical bottlenecks in a high-traffic REST API due to serial logic; fixed by parallelizing external service calls, reducing response times by ~60% for all control tower users",
+      "Developed Spring Boot REST API endpoints on Azure integrating Kafka event streams and Couchbase (NoSQL) to serve wheelchair and baggage data per flight for DOT compliance",
+      "Reduced tech debt score from 47.03 to 23.44 by addressing 53 critical and high vulnerabilities over 3 apps"
     ]
   },
   {
@@ -21,10 +23,12 @@
     "companyLink": "https://www.aristocrat.com",
     "location": "Austin, TX",
     "type": "Co-Op",
+    "paragraphs": [
+      "This was an R&D internship where I got to experiment with integrating multiple AI models together into a single pipeline. The goal was making a dealer avatar feel genuinely realistic in real time. Getting the voice input, language model response, and synthesized speech to work together smoothly was the core challenge."
+    ],
     "bulletPoints": [
-      "Enhanced in-game avatar responses by leveraging Large Language Models and Generative AI in Unreal Engine 5",
-      "Integrated TTS and STT models for lifelike avatar interactions, contributing to more seamless gameplay",
-      "Improved real-time rendering by integrating NVIDIA Omniverse, reducing latency for audio lip-sync animations"
+      "Designed an offline STT to LLM to TTS pipeline using Whisper and ElevenLabs to convert player voice input into real-time dealer responses",
+      "Engineered LLM prompts to constrain the avatar to a dealer persona with content and tone guardrails, ensuring appropriate and engaging interactions"
     ]
   },
   {
@@ -34,10 +38,8 @@
     "companyLink": "https://www.utexas.edu",
     "location": "Austin, TX",
     "type": "Part-Time",
-    "bulletPoints": [
-      "Served as the lead Undergraduate Teaching Assistant, coordinating the efforts of other TAs and serving as a liaison between students and the professor",
-      "Continued to lead recitation sessions and provide comprehensive support for 15-20 students on advanced C/C++ topics, maintaining high standards of academic success and engagement",
-      "Ensured consistent delivery of educational support for 80 students, including leading office hours and conducting exam reviews, mirroring prior responsibilities with added leadership duties"
+    "paragraphs": [
+      "I TA'd for Software Implementation and Design I Honors for three semesters total, taking a semester off in between before coming back my final semester of college as Lead TA. By that point I had seen the course enough times to actually mentor the other TAs, not just the students. It was one of the more rewarding things I did at UT. There's something satisfying about watching both your TAs and your students figure things out."
     ]
   },
   {
@@ -47,9 +49,12 @@
     "companyLink": "https://www.silabs.com",
     "location": "Austin, TX",
     "type": "Internship",
+    "paragraphs": [
+      "I worked on Simplicity Studio, an IDE used by developers to program Silicon Labs hardware. It was a different kind of experience working on tooling that other engineers depend on daily. I spent most of my time resolving Java bugs and expanding C++ unit test coverage across our codebases."
+    ],
     "bulletPoints": [
-      "Increased code coverage from 21.5% to 81.5% across 4 C++ projects by expanding unit tests and Makefiles",
-      "Resolved 18 Java bug and feature requests for Simplicity Studio IDE, improving team's product stability"
+      "Raised C++ unit test coverage from 21.5% to 81.5% across 4 projects by writing automated tests from scratch",
+      "Resolved 18 Java bugs in Simplicity Studio fixing build errors and UI defects"
     ]
   },
   {
@@ -59,10 +64,8 @@
     "companyLink": "https://www.aristocrat.com",
     "location": "Austin, TX",
     "type": "Co-Op",
-    "bulletPoints": [
-      "Developed a proof-of-concept loyalty app using Angular, facilitating seamless NFC communication from mobile wallet passes to electronic gambling machines, enhancing user experience and connectivity",
-      "Demonstrated the app's capabilities with sample wallet passes, showcasing its potential to executives",
-      "Automated wallet pass generation using Python scripts, facilitating integration into the loyalty app"
+    "paragraphs": [
+      "This was my first experience building a cross-platform mobile app, which meant picking up new tools like Electron pretty quickly. The app was a proof-of-concept loyalty platform exploring how NFC-scanned mobile wallet passes could connect to entertainment hardware on the casino floor. It was a fun opportunity to experiment with a new tech stack and build something from the ground up, and I got to demo it to executives at the end of the internship which was a great experience."
     ]
   },
   {
@@ -72,9 +75,11 @@
     "companyLink": "https://www.utexas.edu",
     "location": "Austin, TX",
     "type": "Part-Time",
+    "paragraphs": [
+      "I've always enjoyed breaking down technical concepts for others. There's something satisfying about meeting someone where they are and finding the right way to explain something that finally makes it click. Since I had just learned this material myself, I could frame things in a way that felt approachable rather than abstract. I put a lot of care into each recitation, building detailed Notion pages with examples and walkthroughs that students could reference later."
+    ],
     "bulletPoints": [
-      "Led weekly recitation sessions for 15-20 students on C/C++ topics, data structures, algorithms, and more, resulting in heightened comprehension and academic success within my section",
-      "Created detailed supplemental resources praised by students, increasing satisfaction ratings for course by 15%"
+      "Created detailed Notion pages with examples and walkthroughs for each topic, increasing course satisfaction ratings by 15%"
     ]
   }
 ]

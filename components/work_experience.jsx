@@ -1,11 +1,9 @@
+"use client";
 import experienceData from "@/data/work_experience";
 
 export default function Experience() {
   return (
-    <div
-      className="min-h-screen bg-[#EDECED] text-[#131411]"
-      id="experience"
-    >
+    <div className="min-h-screen bg-[#EDECED] text-[#131411]" id="experience">
       {/* Section Title */}
       <div className="container grid md:grid-cols-3 gap-8 items-center mb-4">
         <div className="md:col-start-2 md:col-span-2">
@@ -46,14 +44,25 @@ export default function Experience() {
                 {job.location} | {job.type}
               </p>
 
+              {/* Paragraphs */}
+              <div className="pr-5 md:pr-20">
+                {job.paragraphs &&
+                  job.paragraphs.map((paragraph, idx) => (
+                    <p key={idx} className="pb-2">
+                      {paragraph}
+                    </p>
+                  ))}
+              </div>
+
               {/* Bullet Points */}
               <div className="pr-5 md:pr-20">
                 <ul className="list-disc">
-                  {job.bulletPoints.map((point, idx) => (
-                    <li key={idx} className="pb-2">
-                      {point}
-                    </li>
-                  ))}
+                  {job.bulletPoints &&
+                    job.bulletPoints.map((point, idx) => (
+                      <li key={idx} className="pb-2">
+                        {point}
+                      </li>
+                    ))}
                 </ul>
               </div>
             </div>
