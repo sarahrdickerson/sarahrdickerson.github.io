@@ -53,8 +53,8 @@ const ProjectsGrid = () => {
               </CardContent>
             </Card>
           </DialogTrigger>
-          <DialogContent>
-            <DialogHeader>
+          <DialogContent className="max-h-[90vh] overflow-hidden flex flex-col">
+            <DialogHeader className="sticky top-0 bg-white z-10 pb-2">
               <DialogTitle>
                 <div className="flex flex-row justify-between items-center">
                   {project.link ? (
@@ -75,52 +75,51 @@ const ProjectsGrid = () => {
                   )}
                 </div>
               </DialogTitle>
-              <div className="flex flex-col space-y-4 items-center">
-                {project.image && project.link ? (
-                  <Link href={project.link} target="_blank" className="w-full">
-                    <Image
-                      src={project.image}
-                      width={600}
-                      height={300}
-                      alt={project.name}
-                      className="w-full max-w-full"
-                    />
-                  </Link>
-                ) : (
-                  project.image && (
-                    <Image
-                      src={project.image}
-                      width={600}
-                      height={300}
-                      alt={project.name}
-                      className="w-full max-w-full"
-                    />
-                  )
-                )}
-                <p className="text-[#131411] break-words">
-                  {project.description}
-                </p>
-
-                {project.link && (
-                  <Link
-                    href={project.link}
-                    target="_blank"
-                    className="flex flex-row space-x-2 items-center hover:text-[#354259]/75 transition duration-300 ease-in-out"
-                  >
-                    <Button variant="secondary">
-                      View Project <ExternalLinkIcon />
-                    </Button>
-                  </Link>
-                )}
-                <div className="flex flex-wrap gap-4 justify-center">
-                  {project.tools.map((tool, index) => (
-                    <Badge key={index} variant={getVariant(tool)}>
-                      {tool}
-                    </Badge>
-                  ))}
-                </div>
-              </div>
             </DialogHeader>
+            <div className="flex flex-col space-y-4 items-center overflow-y-auto">
+              {project.image && project.link ? (
+                <Link href={project.link} target="_blank" className="w-full">
+                  <Image
+                    src={project.image}
+                    width={600}
+                    height={300}
+                    alt={project.name}
+                    className="w-full max-w-full"
+                  />
+                </Link>
+              ) : (
+                project.image && (
+                  <Image
+                    src={project.image}
+                    width={600}
+                    height={300}
+                    alt={project.name}
+                    className="w-full max-w-full"
+                  />
+                )
+              )}
+              <p className="text-[#131411] break-words">
+                {project.description}
+              </p>
+              {project.link && (
+                <Link
+                  href={project.link}
+                  target="_blank"
+                  className="flex flex-row space-x-2 items-center hover:text-[#354259]/75 transition duration-300 ease-in-out"
+                >
+                  <Button variant="secondary">
+                    View Project <ExternalLinkIcon />
+                  </Button>
+                </Link>
+              )}
+              <div className="flex flex-wrap gap-4 justify-center pb-4">
+                {project.tools.map((tool, index) => (
+                  <Badge key={index} variant={getVariant(tool)}>
+                    {tool}
+                  </Badge>
+                ))}
+              </div>
+            </div>
           </DialogContent>
         </Dialog>
       ))}
