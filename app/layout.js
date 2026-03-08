@@ -1,7 +1,8 @@
 import NavBar from "@/components/navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
-// import Navbar from '@/components/Navbar'
+import packageJson from "@/package.json";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,6 +40,17 @@ export default function RootLayout({ children }) {
           {children}
         </main>
       </body>
+      <footer className="w-full bg-[#EDECED] text-center py-4 text-sm text-gray-500/75">
+        v{packageJson.version} · developed by{" "}
+        <Link
+          href="https://linkedin.com/in/srdickerson"
+          target="_blank"
+          className="font-bold hover:underline"
+          rel="noreferrer"
+        >
+          sarah dickerson
+        </Link>
+      </footer>
     </html>
   );
 }
