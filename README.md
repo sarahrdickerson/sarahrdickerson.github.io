@@ -1,7 +1,7 @@
 # sarah dickerson — portfolio
 
 A personal portfolio site built to showcase my work, projects, and photography.  
-Designed and built from scratch because a Google Doc resume felt insufficient.
+Designed and built from scratch.
 
 **[sarahrdickerson.github.io](https://sarahrdickerson.github.io)**
 
@@ -20,4 +20,4 @@ Designed and built from scratch because a Google Doc resume felt insufficient.
 
 ---
 
-_designed & built by sarah dickerson — always a work in progress_ 🏔️
+_designed & built by sarah dickerson. always a work in progress_ 🏔️
