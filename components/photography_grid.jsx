@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import PhotoAlbum from "react-photo-album";
 import "react-photo-album/styles.css";

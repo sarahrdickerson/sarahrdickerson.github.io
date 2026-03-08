@@ -6,14 +6,12 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -21,14 +19,13 @@ import {
 import Image from "next/image";
 import { Badge } from "./ui/badge";
 import Link from "next/link";
-import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 
 import { ArrowRightIcon, ExternalLinkIcon } from "@radix-ui/react-icons";
 
 const ProjectsGrid = () => {
   return (
     <div className="container grid md:grid-cols-2 gap-8 items-center place-items-center mb-4">
-      {projects.map((project) => (
+      {projects.map((project, index) => (
         <Dialog key={project.id}>
           <DialogTrigger asChild>
             <Card className="w-full hover:cursor-pointer">
@@ -39,6 +36,7 @@ const ProjectsGrid = () => {
                   height={300}
                   alt={project.name}
                   className="rounded-t-xl h-full w-full"
+                  priority={index === 0}
                 />
               </CardHeader>
               <CardContent className="space-y-2">

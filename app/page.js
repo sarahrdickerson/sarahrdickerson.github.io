@@ -5,11 +5,29 @@ import {
   GitHubLogoIcon,
   FileTextIcon,
 } from "@radix-ui/react-icons";
-import { Badge } from "@/components/ui/badge";
+import { Skeleton } from "@/components/ui/skeleton";
 import CodeEditor from "@/components/code_editor";
 import Experience from "@/components/work_experience";
 import ProjectsGrid from "@/components/projects_grid";
-import PhotographyGrid from "@/components/photography_grid";
+import dynamic from "next/dynamic";
+
+const PhotographyGrid = dynamic(() => import("@/components/photography_grid"), {
+  ssr: false,
+  loading: () => (
+    <div
+      className="container w-full"
+      style={{ columnCount: 4, columnGap: "1rem" }}
+    >
+      {[80, 48, 64, 96, 64, 80, 48, 96, 64, 48, 80, 64].map((h, i) => (
+        <Skeleton
+          key={i}
+          className="w-full rounded-none mb-4 break-inside-avoid"
+          style={{ height: `${h * 4}px` }}
+        />
+      ))}
+    </div>
+  ),
+});
 
 export default function Home() {
   return (
