@@ -102,7 +102,7 @@ export default function Home() {
               about me
             </h2>
 
-            <p className="text-center max-w-xl mx-auto text-base md:text-lg leading-relaxed text-[#4b4f5e]">
+            <p className="text-center px-8 max-w-xl mx-auto text-base md:text-lg leading-relaxed text-[#4b4f5e]">
               Software engineer. <span className="italic">UT Austin</span> grad
               — ECE + Business minor.
               <br />
