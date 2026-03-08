@@ -106,10 +106,10 @@ export default function Home() {
               Software engineer. <span className="italic">UT Austin</span> grad
               — ECE + Business minor.
               <br />
-              Dashboards. Side projects. Full-stack web apps.
+              Full-stack web apps, backend systems, and side projects.
               <br />
-              Currently at American Airlines ✈️, working on backend systems and
-              internal tools.
+              Currently at American Airlines ✈️, building production systems
+              that keep 6,000+ daily flights on track.
             </p>
           </div>
         </div>
