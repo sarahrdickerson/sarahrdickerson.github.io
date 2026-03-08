@@ -39,18 +39,18 @@ export default function RootLayout({ children }) {
         <main className="flex min-h-screen w-full flex-col items-center justify-center z-30">
           {children}
         </main>
+        <footer className="w-full bg-[#EDECED] text-center py-4 text-sm text-gray-500/75">
+          v{packageJson.version} · developed by{" "}
+          <Link
+            href="https://linkedin.com/in/srdickerson"
+            target="_blank"
+            className="font-bold hover:underline"
+            rel="noreferrer"
+          >
+            sarah dickerson
+          </Link>
+        </footer>
       </body>
-      <footer className="w-full bg-[#EDECED] text-center py-4 text-sm text-gray-500/75">
-        v{packageJson.version} · developed by{" "}
-        <Link
-          href="https://linkedin.com/in/srdickerson"
-          target="_blank"
-          className="font-bold hover:underline"
-          rel="noreferrer"
-        >
-          sarah dickerson
-        </Link>
-      </footer>
     </html>
   );
 }
