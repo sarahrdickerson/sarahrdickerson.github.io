@@ -1,72 +1,72 @@
 [
   {
-    "src": "/compressjpeg/mtfuji-min.jpg",
+    "src": "/photos/mtfuji.webp",
     "width": 600,
     "height": 900
   },
   {
-    "src": "/compressjpeg/looking-min.jpg",
+    "src": "/photos/looking.webp",
     "width": 900,
     "height": 600
   },
   {
-    "src": "/compressjpeg/wave-min.jpg",
+    "src": "/photos/wave.webp",
     "width": 600,
     "height": 900
   },
   {
-    "src": "/compressjpeg/motorcycle-min.jpg",
+    "src": "/photos/motorcycle.webp",
     "width": 1000,
     "height": 800
   },
   {
-    "src": "/compressjpeg/mountain_sky-min.jpg",
+    "src": "/photos/mountain_sky.webp",
     "width": 900,
     "height": 600
   },
   {
-    "src": "/compressjpeg/narrows-min.jpg",
+    "src": "/photos/narrows.webp",
     "width": 600,
     "height": 900
   },
   {
-    "src": "/compressjpeg/matterhorn-min.jpg",
+    "src": "/photos/matterhorn.webp",
     "width": 600,
     "height": 900
   },
 
   {
-    "src": "/compressjpeg/looking2-min.jpg",
+    "src": "/photos/looking2.webp",
     "width": 900,
     "height": 600
   },
   {
-    "src": "/compressjpeg/soleduck-min.jpg",
+    "src": "/photos/soleduck.webp",
     "width": 900,
     "height": 600
   },
   {
-    "src": "/compressjpeg/thailand_boat-min.jpg",
+    "src": "/photos/thailand_boat.webp",
     "width": 600,
     "height": 900
   },
   {
-    "src": "/compressjpeg/road-min.jpg",
+    "src": "/photos/road.webp",
     "width": 600,
     "height": 900
   },
   {
-    "src": "/compressjpeg/olympic_water-min.jpg",
+    "src": "/photos/olympic_water.webp",
     "width": 600,
     "height": 900
   },
   {
-    "src": "/compressjpeg/van-min.jpg",
+    "src": "/photos/van.webp",
     "width": 600,
     "height": 900
   },
   {
-    "src": "/compressjpeg/sky-min.jpg",
+    "src": "/photos/sky.webp",
     "width": 1000,
     "height": 800
   }

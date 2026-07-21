@@ -1,13 +1,22 @@
 [
   {
-    "dates": "Jun 2024 - Present",
+    "dates": "Jun 2026 - PRESENT",
+    "title": "Software Engineer",
+    "company": "SoFi",
+    "companyLink": "https://www.sofi.com",
+    "location": "San Francisco, CA",
+    "type": "Full-Time",
+    "paragraphs": ["Working on making SoFi Plus even better!"]
+  },
+  {
+    "dates": "Jun 2024 - Jun 2026",
     "title": "Associate Software Engineer",
     "company": "American Airlines",
     "companyLink": "https://www.aa.com",
     "location": "Dallas, TX",
     "type": "Full-Time",
     "paragraphs": [
-      "I'm part of AA's ADEPT rotational software engineering program, currently on a flight operations team. The systems I work on are used by control tower operators at every AA station to manage the turnaround process for 6,000+ daily flights, so when something breaks or runs slow, real operations feel it.",
+      "I was part of AA's ADEPT rotational software engineering program. The systems I worked on were used by control tower operators at every AA station to manage the turnaround process for 6,000+ daily flights.",
       "The project I'm most proud of is an Angular frontend I led for a full-stack app that gave leadership their first tool to visualize passenger reaccommodation during equipment swaps. Before it existed, that data lived nowhere accessible. Now it does."
     ],
     "bulletPoints": [
